@@ -1,0 +1,78 @@
+{
+  "llm": {
+    "default_model": "llama2",
+    "base_url": "http://localhost:11434",
+    "timeout": 300
+  },
+  "entry": {
+    "min_word_count": 11000,
+    "max_word_count": 14000,
+    "sections": [
+      {
+        "name": "Introduction",
+        "min_words": 1500,
+        "max_words": 2000
+      },
+      {
+        "name": "The Patristic Mind",
+        "min_words": 2000,
+        "max_words": 2500
+      },
+      {
+        "name": "Symphony of Clashes",
+        "min_words": 2000,
+        "max_words": 2500
+      },
+      {
+        "name": "Orthodox Affirmation",
+        "min_words": 2000,
+        "max_words": 2500
+      },
+      {
+        "name": "Synthesis",
+        "min_words": 1500,
+        "max_words": 2000
+      },
+      {
+        "name": "Conclusion",
+        "min_words": 1500,
+        "max_words": 2000
+      }
+    ]
+  },
+  "quality_tiers": {
+    "CELESTIAL": {
+      "min_score": 95,
+      "max_score": 100
+    },
+    "ADAMANTINE": {
+      "min_score": 90,
+      "max_score": 94
+    },
+    "PLATINUM": {
+      "min_score": 85,
+      "max_score": 89
+    },
+    "GOLD": {
+      "min_score": 80,
+      "max_score": 84
+    },
+    "SILVER": {
+      "min_score": 75,
+      "max_score": 79
+    },
+    "BRONZE": {
+      "min_score": 70,
+      "max_score": 74
+    }
+  },
+  "validation": {
+    "weights": {
+      "word_count": 0.2,
+      "theological_depth": 0.3,
+      "coherence": 0.25,
+      "section_balance": 0.15,
+      "orthodox_perspective": 0.1
+    }
+  }
+}
