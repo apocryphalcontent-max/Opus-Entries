@@ -70,7 +70,7 @@ This guide is designed for anyone who wants to reproduce the Opus-Entries system
 - Learning the system: 2-4 hours
 - Generating first CELESTIAL entry: 1-2 hours
 - Average time per entry (after learning): 58 minutes
-- **Total for 12,000 entries: 11,600 hours (~145 working days with single GPU)**
+- **Total for 12,000 entries: 11,600 hours = 1,450 working days (8-hour days)**
 
 ### The Complete Workflow (High-Level)
 
@@ -988,20 +988,20 @@ Section breakdown (MINIMUMS ONLY):
 
 #### 4. Section Balance (Perfect Score = 100/100)
 
-**Strict Word Count Ranges:**
+**Strict Word Count Requirements:**
 ```
-Introduction: 1,500-2,000 words (ideal: 1,750)
-The Patristic Mind: 2,000-2,500 words (ideal: 2,250)
-Symphony of Clashes: 2,000-2,500 words (ideal: 2,350)
-Orthodox Affirmation: 2,000-2,500 words (ideal: 2,250)
-Synthesis: 1,500-2,000 words (ideal: 1,900)
-Conclusion: 1,500-2,000 words (ideal: 1,800)
+Introduction: MINIMUM 1,750 words (optimal zone: 1,750-2,500 words)
+The Patristic Mind: MINIMUM 2,250 words (optimal zone: 2,250-3,000 words)
+Symphony of Clashes: MINIMUM 2,350 words (optimal zone: 2,350-3,200 words)
+Orthodox Affirmation: MINIMUM 2,250 words (optimal zone: 2,250-3,000 words)
+Synthesis: MINIMUM 1,900 words (optimal zone: 1,900-2,500 words)
+Conclusion: MINIMUM 1,800 words (optimal zone: 1,800-2,400 words)
 ```
 
 **Penalties:**
 - Any section <500 words: -50 points from section balance score
-- Any section outside range: proportional penalty
-- Total word count <11,000 or >14,000: major penalty
+- Any section below its minimum: proportional penalty based on deficit
+- Total word count <11,000: major penalty (word count criterion drops significantly)
 
 #### 5. Orthodox Perspective (Perfect Score = 100/100)
 
@@ -1071,6 +1071,14 @@ def calculate_diversity_score(entry):
 
 **Threshold**: Minimum score of 80 (4+ different Fathers) to pass
 
+**What This Measures**: Citation breadth across the Patristic tradition. A CELESTIAL-tier entry cannot rely on only one or two Church Fathers but must demonstrate engagement with the breadth of Orthodox theological witness across centuries.
+
+**Why It Matters**: Orthodox theology is not the opinion of individual saints but the consensus of the Church's witness. An entry citing only St. Gregory of Nyssa lacks the symphonic quality of true Orthodox exposition. By requiring 5+ Fathers, we ensure the entry represents the full Patristic Mind, not a narrow slice.
+
+**How to Optimize**: When refining an entry, systematically check which Fathers are cited. If you have Gregory of Nyssa, Maximus the Confessor, and Basil the Great, add citations from John Chrysostom and Athanasius. Different Fathers bring different emphases: Cappadocians for Trinitarian theology, Chrysostom for pastoral application, Athanasius for Christology, Palamas for hesychasm.
+
+**Common Pitfall**: LLMs tend to favor well-known Fathers like Gregory of Nyssa and Maximus the Confessor. Manually guide the generation to include lesser-cited but equally important voices: John of Damascus, Gregory Palamas, Ignatius of Antioch, Irenaeus of Lyons.
+
 #### 2. Specificity Score (Named Works)
 
 **Algorithm:**
@@ -1108,6 +1116,19 @@ def calculate_specificity_score(entry):
 
 **Threshold**: Minimum score of 70 (2+ named works) to pass
 
+**What This Measures**: Citation depth and scholarly precision. It's not enough to say "St. Basil taught..." - CELESTIAL-tier entries cite specific works: "St. Basil the Great, in On the Holy Spirit, argues..."
+
+**Why It Matters**: Vague citations can be hallucinated or misattributed. Naming specific works demonstrates the author has engaged with actual Patristic texts, not just summaries. It also allows readers to verify claims and pursue deeper study.
+
+**How to Optimize**: When the LLM generates a citation without a work title, enhance it. Transform "St. Gregory of Nyssa speaks of the soul's ascent..." into "St. Gregory of Nyssa, in The Life of Moses, describes the soul's ascent..." Common works to cite:
+- Gregory of Nyssa: *On the Making of Man*, *The Life of Moses*, *Against Eunomius*
+- Maximus the Confessor: *Ambigua*, *Chapters on Charity*, *Mystagogy*
+- Basil the Great: *On the Holy Spirit*, *Hexaemeron*, *Against Eunomius*
+- John Chrysostom: *Homilies on [Gospel/Epistle]*, *On the Priesthood*
+- Athanasius: *On the Incarnation*, *Against the Heathen*, *Letters to Serapion*
+
+**Common Pitfall**: LLMs hallucinate work titles. Always verify against the Patristic works database in this guide. If unsure, use "in his writings on [topic]" rather than inventing a title.
+
 #### 3. Integration Score (Natural Flow)
 
 **Algorithm:**
@@ -1142,6 +1163,22 @@ def calculate_integration_score(entry):
 
 **Threshold**: Minimum score of 70 (acceptable distribution) to pass
 
+**What This Measures**: Whether Patristic citations are distributed evenly across the entry or clustered in one section (typically "The Patristic Mind"). A well-integrated entry weaves Patristic wisdom throughout all sections.
+
+**Why It Matters**: If all 20 Patristic citations appear in "The Patristic Mind" section and the other five sections have zero, the entry reads like a compartmentalized academic paper rather than a unified theological exposition. CELESTIAL-tier entries demonstrate that Patristic thought illuminates every aspect of the topic.
+
+**How to Optimize**: After initial generation, count citations per section. If "The Patristic Mind" has 15 citations but "Introduction" has 0, move 2-3 citations to the Introduction. If "Synthesis" lacks Patristic grounding, add a citation showing how the Fathers anticipated your synthetic conclusion.
+
+**Example of Good Distribution** (20 total citations):
+- Introduction: 2 citations (establishing Patristic foundation)
+- The Patristic Mind: 8 citations (core Patristic exposition)
+- Symphony of Clashes: 3 citations (showing Patristic resolution of tensions)
+- Orthodox Affirmation: 4 citations (Patristic distinctives)
+- Synthesis: 2 citations (Patristic synthesis)
+- Conclusion: 1 citation (final Patristic word)
+
+**Common Pitfall**: Writers front-load citations in early sections. Remember that "Synthesis" and "Conclusion" also benefit from Patristic grounding.
+
 #### 4. Distribution Score (Patristic Content Across Sections)
 
 **Algorithm:**
@@ -1174,6 +1211,22 @@ def calculate_distribution_score(entry):
 ```
 
 **Threshold**: Minimum score of 85 (4+ sections) to pass
+
+**What This Measures**: Whether Patristic content (citations, terminology, perspective) appears across multiple sections, not just "The Patristic Mind." This ensures the entire entry is grounded in Patristic theology, not just one designated section.
+
+**Why It Matters**: The division into six sections is structural, not theological. Every section should breathe Patristic air. If only "The Patristic Mind" section has Patristic content, the other sections risk becoming generic philosophy or science writing with an Orthodox label slapped on.
+
+**How to Optimize**: Use the "Patristic lens" throughout:
+- **Introduction**: Reference how Church Fathers approached this topic historically
+- **The Patristic Mind**: Deep dive into Patristic texts (obviously)
+- **Symphony of Clashes**: Show how Patristic theology resolves modern tensions
+- **Orthodox Affirmation**: Ground Orthodox distinctives in Patristic sources
+- **Synthesis**: Demonstrate Patristic coherence and anticipation
+- **Conclusion**: End with Patristic wisdom as the final word
+
+**Target**: Patristic content in all 6 sections (score: 100) or at minimum 4 sections (score: 85)
+
+**Common Pitfall**: "Symphony of Clashes" often becomes purely philosophical dialectic without Patristic synthesis. Always show how the Fathers resolved similar tensions or anticipated modern dilemmas.
 
 #### Composite Quality Check
 
@@ -1211,6 +1264,39 @@ def automated_quality_check(entry):
         'distribution': distribution
     }
 ```
+
+###Philosophy and Acceptance Criteria
+
+**The 90-95% Authenticity Standard**
+
+This automated system does NOT attempt perfect verification of every citation. Instead, it accepts **90-95% citation authenticity** as "done enough" for the following reasons:
+
+1. **Theological Coherence > Citation Forensics**: The goal is CELESTIAL-tier Orthodox theological exposition, not a peer-reviewed academic journal. If an entry demonstrates deep Patristic engagement (5+ Fathers, 3+ named works, even distribution), occasional citation imperfections are acceptable.
+
+2. **LLM Hallucination is Rare but Inevitable**: Even the best LLMs occasionally hallucinate citations. The automated checks catch obvious failures (no named works, only 1-2 Fathers cited) while accepting that minor attribution errors may slip through.
+
+3. **Manual Spot-Checking Suffices**: Rather than verify all 20+ citations in all 12,000 entries (24,000 hours of work), spot-check 5-10% of entries manually (1,200-2,400 hours). If spot checks reveal >10% citation errors, tighten the automated thresholds.
+
+4. **Time-Quality Tradeoff**: Achieving 100% verified citations would require 90-125 minutes per entry (manual verification). Achieving 90-95% verified citations requires 10-15 minutes per entry (automated checks). For 12,000 entries:
+   - 100% verification: 1,800-2,500 hours
+   - 90-95% verification: 200-300 hours
+   - **Time saved: 1,500-2,200 hours** (enough to generate 1,500+ additional entries)
+
+5. **Orthodox Theology is Self-Correcting**: If a citation is slightly misattributed but theologically sound, Orthodox readers will recognize the authentic Patristic voice. If a citation is fabricated and theologically deviant, Orthodox readers will immediately flag it. The system optimizes for Orthodox theological truth, not academic citation perfection.
+
+**When to Tighten Standards**
+
+If manual spot-checks reveal:
+- >10% of entries have fabricated citations: Increase specificity threshold to 80
+- >15% of entries cite only 3 Fathers: Increase diversity threshold to 90
+- >20% of entries cluster citations in one section: Increase integration threshold to 80
+
+**When Standards are Sufficient**
+
+If manual spot-checks reveal:
+- <5% of entries have questionable citations: Standards are working
+- Theological coherence is high across all entries: Mission accomplished
+- Readers praise Patristic depth and breadth: System validated
 
 #### Time Savings
 
@@ -1262,7 +1348,6 @@ This pragmatic approach enables scaling to 12,000 CELESTIAL-tier entries while m
   },
   "entry": {
     "min_word_count": 11000,
-    "max_word_count": 14000,
     "target_word_count": 12500,
     "sections": [
       {
@@ -2229,7 +2314,11 @@ CRITICAL STYLE MANDATES (ABSOLUTE COMPLIANCE):
 2. LINGUISTIC:
    - BANNED PHRASES: "In conclusion," "Furthermore," "Moreover," "However," "This paper," "In this essay," "On the other hand," "This is because," "It is important to note"
    - CAPITALIZE: Trinity, Father, Son, Holy Spirit, Logos, Word, Creator, Incarnation, Theotokos, Cross, Resurrection, Church, Eucharist, Liturgy, Scripture, Gospel, Tradition, Patristic, Fathers, Orthodox, Orthodoxy, Theosis, Deification, Penthos, Energies, Essence, Perichoresis, Metanoia, Beauty, Truth, Wisdom, Life, Light, Kingdom
-   - USE APOCALYPTIC VOCABULARY: crushing, devastating, unbearable, terrible, catastrophic, infinite, absolute, eternal, forevermore, unavoidable, inescapable, ontological
+   - APOCALYPTIC VOCABULARY (USE 30-50 TERMS FROM THESE CATEGORIES):
+     * Intensity Adjectives: crushing, devastating, unbearable, terrible, catastrophic, infinite, absolute, eternal, forevermore, unavoidable, inescapable, ontological, primordial, ultimate, unquenchable, limitless, implacable, inexorable, relentless, immutable, ineffable, incomprehensible, unfathomable, inscrutable, transcendent, sublime, numinous, terrifying, awesome, overwhelming, shattering, cosmic, universal, totalizing, irrevocable, irreversible, consummate, supreme, paramount, preeminent, sovereign
+     * Theological Nouns: Abyss, Mystery, Transfiguration, Judgment, Sovereignty, Sacrifice, Resurrection, Glory, Covenant, Mercy, Wrath, Justice, Holiness, Majesty, Splendor, Condescension, Kenosis, Theophany, Epiphany, Apocalypse, Eschaton, Parousia, Consummation, Fulfillment, Chasm, Void, Darkness, Radiance, Terror, Wonder, Trembling, Ecstasy, Paradox, Foundation, Cornerstone, Torrent, Deluge, Fire, Flame, Inferno
+     * Verbs of Ultimate Action: ordain, decree, shatter, redeem, transfigure, consume, illumine, condemn, vindicate, sanctify, annihilate, obliterate, resurrect, regenerate, restore, judge, weigh, measure, discern, penetrate, rend, tear, break, crush, pulverize, exalt, magnify, glorify, enthrone, crown, cast down, abase, humble, prostrate, fell, forge, fashion, mold, pierce, transfix, heal, bind, renew, vivify
+     * Liturgical Phrases: "from everlasting to everlasting," "unto ages of ages," "from before the foundation of the world," "world without end," "from all eternity," "blessed forevermore," "holy, holy, holy," "now and ever," "from generation to generation," "in saecula saeculorum," "alleluia"
 
 3. SECTION I MANDATES (D1):
    - Opening Hook: Begin with a specific historical moment (e.g., "In the year...", "On the night of...")
@@ -2993,7 +3082,7 @@ INCORRECT FORMATS:
 
 ## Section-by-Section Requirements
 
-### Introduction Section (1,500-2,000 words, ideal: 1,750)
+### Introduction Section (MINIMUM 1,750 words, optimal zone: 1,750-2,500 words)
 
 #### Structural Blueprint
 
@@ -3277,7 +3366,7 @@ Western Contrasts:
 □ Focuses on truth, not triumphalism
 ```
 
-### Synthesis Section (1,500-2,000 words, ideal: 1,900)
+### Synthesis Section (MINIMUM 1,900 words, optimal zone: 1,900-2,500 words)
 
 #### Structural Blueprint
 
@@ -3342,7 +3431,7 @@ Practical Application:
 □ Personal transformation path
 ```
 
-### Conclusion Section (1,500-2,000 words, ideal: 1,800)
+### Conclusion Section (MINIMUM 1,800 words, optimal zone: 1,800-2,400 words)
 
 #### Structural Blueprint
 
@@ -4586,13 +4675,13 @@ ENVIRONMENT:
 
 ```
 WORD COUNT VALIDATION:
-□ Total: 11,000-14,000 words (ideal: 12,500)
-□ Introduction: 1,500-2,000 (ideal: 1,750)
-□ The Patristic Mind: 2,000-2,500 (ideal: 2,250)
-□ Symphony of Clashes: 2,000-2,500 (ideal: 2,350)
-□ Orthodox Affirmation: 2,000-2,500 (ideal: 2,250)
-□ Synthesis: 1,500-2,000 (ideal: 1,900)
-□ Conclusion: 1,500-2,000 (ideal: 1,800)
+□ Total: MINIMUM 11,000 words (optimal: 12,500-16,000, NO MAXIMUM)
+□ Introduction: MINIMUM 1,750 (optimal: 1,750-2,500)
+□ The Patristic Mind: MINIMUM 2,250 (optimal: 2,250-3,000)
+□ Symphony of Clashes: MINIMUM 2,350 (optimal: 2,350-3,200)
+□ Orthodox Affirmation: MINIMUM 2,250 (optimal: 2,250-3,000)
+□ Synthesis: MINIMUM 1,900 (optimal: 1,900-2,500)
+□ Conclusion: MINIMUM 1,800 (optimal: 1,800-2,400)
 
 THEOLOGICAL DEPTH:
 □ 20+ Patristic references total
