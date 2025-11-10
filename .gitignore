@@ -46,3 +46,4 @@ output/
 # Local configuration
 .env
 config.local.json
+output/
