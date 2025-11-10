@@ -1,66 +1,352 @@
-# Opus-Entries
-OPUS MAXIMUS: Ultimate Edition (v3.0)A Revolutionary Orthodox Theological Generation Engine for Celestial-Tier QualityThis repository contains the complete source code, documentation, and data for Opus Maximus, a ground-up redesigned AI generation engine. Its mission is to generate a 12,000-entry encyclopedia of Orthodox theology, mathematics, science, and philosophy at a quality standard that transcends typical human capability.This system is designed not merely to validate content, but to generate at the standard, learning from the "DNA of excellence" extracted from proven, high-quality reference entries.🎯 The Ultimate Vision: A Revolutionary ArchitectureThis project (v3.0) is a complete paradigm shift from traditional generate-then-validate systems (v2.0).Traditional Approach (v2.0)Ultimate Approach (v3.0)1. Generate content (hope for quality)1. Analyze golden entries (extract patterns)2. Validate (find failures)2. Build quality templates (from best examples)3. Correct (fix what's broken)3. Generate with constraints (quality-first)4. Repeat until acceptable4. Validate against golden standard (not minimum)Result: Wastes tokens; quality ceiling is the validator.Result: Quality floor is the previous ceiling; can exceed golden entries.🚀 Key InnovationsThis engine's "Celestial-Tier" quality is achieved through a synthesis of four key innovations:Golden Entry Analysis (src/pattern_extractor.py)The system first analyzes a corpus of "Golden" reference entries (found in data/reference_entries/). It algorithmically extracts the "DNA of excellence"—sophisticated vocabulary, sentence architecture, rhetorical devices (like "NOT...BUT" structures), and patristic citation patterns. These are saved to data/patterns/golden_patterns.json.Intelligent Entry Queuing (src/queue_optimizer.py)Instead of generating random subjects, the engine builds a strategic dependency graph of all 12,000 subjects. It intelligently orders the generation queue from simple topics (e.g., "The Sign of the Cross") to complex syntheses (e.g., "The Holy Trinity"), ensuring knowledge is built progressively and cache hit-rates are maximized.Template-Guided Generation (src/generator.py)The main generation engine (OpusMaximusEngine) uses the golden_patterns.json to construct "Celestial Edition" blueprints and prompts. These prompts embed the quality DNA constraints directly, forcing the LLM to start with a high-quality, densely-cited, and rhetorically powerful structure, rather than being corrected later.Rigorous Theological & Quality ValidationEvery generated entry is validated against strict quality thresholds and theological safeguards defined in config/config.yaml. This includes:Theological Safeguards: Detects 11 heresies (Arianism, Nestorianism, etc.) and enforces compliance with 7 Ecumenical Councils.Quality Mandates: Enforces min/max word counts, citation densities (40+ patristic, 60+ biblical), sophisticated vocabulary, and stylistic rules (e.g., "ZERO contractions").📁 Project Structureopus/
-├── src/                    # Source code
-│   ├── generator.py        # Main entry generator (opus_maximus_v2)
-│   ├── pattern_extractor.py # Extracts "Quality DNA" from golden entries
-│   ├── subject_builder.py  # Subject pool builder
-│   ├── queue_optimizer.py  # Entry queue optimization
-│   └── verify_subjects.py  # Subject pool verification
-│
-├── config/                 # Configuration files
-│   ├── config.yaml         # Main configuration (LLM paths, validation)
-│   └── requirements.txt    # Python dependencies
-│
-├── data/                   # Data files
-│   ├── subjects/           # Subject pools
-│   │   ├── pool_12000.json     # 12,000 subjects (has placeholders)
-│   │   └── pool_complete.json  # Verified subjects only
-│   ├── patterns/           # Quality patterns
-│   │   └── golden_patterns.json # Output of pattern_extractor.py
-│   └── reference_entries/  # Golden reference entries (10 files)
-│       ├── the_holy_trinity.md
-│       ├── blaise_pascal.md
-│       └── ...
-│
-├── output/                 # Generated content
-│   ├── generated/          # Generated entries by tier
-│   │   ├── CELESTIAL/
-│   │   ├── ADAMANTINE/
-│   │   └── PLATINUM/
-│   └── logs/               # Generation logs (logs/generation_YYYY-MM-DD.log)
-│
-├── docs/                   # Documentation
-│   ├── architecture.md     # The v3.0 "Ultimate Edition" technical vision
-│   ├── usage.md            # Detailed "WHAT TO RUN" guide
-│   └── requirements.md     # Quality standards & mandates
-│
-├── archive/                # Old files (for reference)
-│   ├── old_files/
-│   └── old_scripts/
-│
-└── README.md              # This file
-📖 Quick Start & Usage GuideFollow these steps to configure and run the engine.Step 1: Install DependenciesInstall the required Python packages from config/requirements.txt.Bashpip install -r config/requirements.txt
-Step 2: Configure Your LLM Model (REQUIRED)Edit the config/config.yaml file to point to your local GGUF model.YAMLmodel:
-  path: "path/to/your/model.gguf"  # <-- CHANGE THIS
-  n_ctx: 16384                     # Recommended context window
-  n_batch: 1024
-  n_gpu_layers: -1                 # -1 = all layers on GPU
-Step 3: Verify Subject PoolRun the verification script (or .bat file) to ensure your data/subjects/ pools are correctly formatted.Bashpython src/verify_subjects.py
-# or run_check.bat
-Expected output:Total entries: 12000
-Placeholders/TODOs: 0
-Category Distribution:
-  Systematic Theology         : 800
-  ...
-Step 4: Extract Golden Patterns (v3.0)This is the core of the v3.0 architecture. Run the extractor to analyze the data/reference_entries/ and create the data/patterns/golden_patterns.json file.Bashpython src/pattern_extractor.py
-Step 5: Test Single Entry GenerationGenerate one entry to test the system. This will take 35-50 minutes as the cache is built.Bash# Generate the "Theosis" entry as a test
-python src/generator.py --subject "Theosis"
-The output will be saved to output/generated/[TIER]/Theosis.md (or GENERATED_ENTRIES_MASTER/ depending on config). Review the file to confirm quality.Expected output:[OPUS MAXIMUS] Generating entry: Theosis
-[BLUEPRINT] Generating...
-[SECTION I] Strategic Role...
-...
-[SECTION VI] Orthodox Affirmation...
-[VALIDATION] Overall Score: 0.997 → CELESTIAL ✨
-[SAVED] output/generated/CELESTIAL/Theosis.md
-Step 6: Start Full Batch GenerationOnce you are satisfied with the test, begin the full 12,000-entry batch generation.Bashpython src/generator.py --batch --pool data/subjects/pool_12000.json
-This will run 24/7.Time per Entry: 35-50 minutes (reduces to 20-25 min as cache warms).Entries per Day: ~30-35 Celestial-tier entries.Total Time: ~12 months of 24/7 operation to complete all 12,000 entries.📊 Core ComponentsCore Scripts (src/)ScriptPurposegenerator.pyMain entry generator (v2 engine). Reads prompts, generates 6 sections, validates, and saves.pattern_extractor.py(v3.0) Extracts quality "DNA" from golden entries to create golden_patterns.json.queue_optimizer.py(v3.0) Strategically orders the 12,000-subject queue for optimal knowledge-building.subject_builder.py(v3.0) Helper script to build and manage subject pools.verify_subjects.py(v3.0) Validates the subject pools for errors and placeholders.Data Files (data/)pool_12000.json: The full list of 12,000 subjects, including placeholders.pool_complete.json: A smaller, verified list of real subjects only.golden_patterns.json: The "Quality DNA" database. Contains extracted vocabulary, sentence, and rhetorical patterns from the golden entries.reference_entries/: A folder containing 10 high-quality "Golden" entries used as the standard for the entire project. The most important is "The Holy Trinity", which serves as the supreme standard.Configuration (config/config.yaml)This is the central control file for the engine.model: LLM settings (path, context, GPU layers).generation: Word count targets (10,000-15,000 total).validation: Quality thresholds (min 40 patristic, 60 biblical citations, min 5.2 avg word length).caching: Enables L1/L2 (RAM) and L3 (Disk) caching.paths: All input and output directories.subject_profiles: Adaptive rulesets for different categories (e.g., systematic_theology, hagiography).theological: Mandates for 7 Ecumenical Councils and 11 heresies.output: Formatting rules (markdown/json, line length).🎯 Quality TiersGenerated entries are scored and sorted into tiers based on a 0.0 to 1.0 quality score. The system's goal is Celestial Tier (0.995+).TierScoreDescriptionCELESTIAL ✨0.995+Approaching angelic perfectionADAMANTINE 💎0.985+Beyond human capabilityPLATINUM ⭐0.97+99th percentile excellenceGOLD 🥇0.92+Exceptional qualitySILVER 🥈0.85+Strong quality⚙️ System RequirementsPython: 3.10+GPU: 16GB+ VRAM (GPU recommended)RAM: 32GB+ RAM (for caching)Storage: 500GB+ storage (for models, cache, and ~150M+ words of output)🙏 Theological MissionThis engine exists to:✅ Exceed golden entries, not merely match them.✅ Synthesize patristic wisdom into new expressions.✅ Defend Orthodox faith with celestial precision.✅ Edify the faithful with transcendent beauty.✅ Glorify the Holy Trinity through every word.Every generated entry is an offering to God.Glory to the Father and to the Son and to the Holy Spirit,now and ever and unto ages of ages. Amen. ✝
+# Opus Maximus - Theological Encyclopedia Generator
+
+**Version:** 2.0 (Development Build)
+**Status:** ⚠️ ACTIVE DEVELOPMENT
+
+A comprehensive AI-powered system for generating Orthodox theological encyclopedia entries with sophisticated validation, multi-tier caching, and resumable generation.
+
+---
+
+## ⚠️ PROJECT STATUS
+
+This is an **active development build (v2.0)**. Core functionality has been implemented and is being tested.
+
+### What Works ✅
+
+- **LLM Integration**: Complete integration with llama-cpp-python (local models) and OpenAI-compatible APIs
+- **Validation Framework**: Multi-dimensional validation (theological, stylistic, structural, citation)
+- **Checkpoint System**: Full checkpoint/resume capability for fault-tolerant generation
+- **Multi-Tier Caching**: L1/L2/L3 caching optimized for 32GB RAM systems
+- **Batch Processing**: Unattended multi-entry generation with progress tracking
+- **Error Recovery**: Automatic retry with exponential backoff
+- **Configuration System**: Comprehensive YAML-based configuration
+
+### In Progress 🚧
+
+- **Template-Guided Generation**: Pattern extraction from golden entries
+- **Quality Testing**: Comprehensive test suite
+- **Performance Optimization**: Benchmarking and tuning
+- **Documentation**: Complete usage guides
+
+### Not Yet Implemented ❌
+
+- **Web Dashboard**: Streamlit-based monitoring UI
+- **Human Review Workflow**: Integration with review systems
+- **Ecclesial Oversight**: Theological review process
+- **Production Deployment**: Hardened for large-scale operation
+
+---
+
+## Prerequisites
+
+### Hardware Requirements
+
+**Recommended:**
+- **GPU**: 16GB+ VRAM (NVIDIA RTX 4070 Ti or better)
+- **RAM**: 32GB+ system RAM
+- **Storage**: 50GB+ free space (for models and cache)
+- **CPU**: 8+ cores (16+ recommended)
+
+**Minimum:**
+- **GPU**: 8GB VRAM (or use API mode)
+- **RAM**: 16GB
+- **Storage**: 20GB
+
+### Software Requirements
+
+- **Python**: 3.10 or higher
+- **CUDA**: 11.8 or 12.1 (for GPU acceleration)
+- **Git**: For cloning and version control
+
+---
+
+## Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Opus-Entries.git
+cd Opus-Entries
+```
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+**For GPU acceleration (CUDA 11.8):**
+```bash
+pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu118
+```
+
+**For GPU acceleration (CUDA 12.1):**
+```bash
+pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu121
+```
+
+**For CPU/Metal (macOS):**
+```bash
+CMAKE_ARGS="-DLLAMA_METAL=on" pip install llama-cpp-python
+```
+
+### 4. Download Model
+
+Download a GGUF model file and place in `models/` directory.
+
+**Recommended models:**
+- [Nous-Hermes-2-SOLAR-10.7B-GGUF](https://huggingface.co/TheBloke/Nous-Hermes-2-SOLAR-10.7B-GGUF) (Q5_K_M, 6.7GB)
+- [Mixtral-8x7B-Instruct-GGUF](https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF) (Q4_K_M, 26GB)
+
+```bash
+mkdir -p models
+cd models
+# Download your chosen model
+wget https://huggingface.co/TheBloke/Nous-Hermes-2-SOLAR-10.7B-GGUF/resolve/main/nous-hermes-2-solar-10.7b.Q5_K_M.gguf
+cd ..
+```
+
+### 5. Configure
+
+Edit `Opus/config/config.yaml` to point to your model:
+
+```yaml
+model:
+  path: "models/nous-hermes-2-solar-10.7b.Q5_K_M.gguf"
+  n_ctx: 16384
+  n_gpu_layers: -1  # -1 = all layers on GPU
+  # ... other settings
+```
+
+---
+
+## Quick Start
+
+### Generate Single Entry
+
+```bash
+python opus_cli.py generate --subject "Theosis" --tier "Tier 1" --category "Soteriology"
+```
+
+**Expected:** 30-90 minutes for first generation (cold cache)
+
+### Process Batch
+
+```bash
+python opus_cli.py batch --pool Opus/data/subjects/pool_12000.json --max 10
+```
+
+### Validate Entry
+
+```bash
+python opus_cli.py validate --file GENERATED_ENTRIES_MASTER/Tier_1/Theosis.md
+```
+
+### Show Cache Statistics
+
+```bash
+python opus_cli.py cache-stats
+```
+
+---
+
+## Usage
+
+### Python API
+
+```python
+from Opus.src import OpusMaximusEngine, OpusConfig
+
+# Load configuration
+config = OpusConfig.from_yaml('Opus/config/config.yaml')
+
+# Create engine
+engine = OpusMaximusEngine(config)
+
+# Generate entry
+result = engine.generate_entry(
+    subject="Theosis",
+    tier="Tier 1",
+    category="Soteriology",
+    resume=True  # Enable checkpoint/resume
+)
+
+print(f"Generated {result.word_count} words")
+print(f"Quality score: {result.validation['score']:.3f}")
+```
+
+### Batch Processing
+
+```python
+from Opus.src import BatchProcessor, create_engine_from_config
+from pathlib import Path
+
+# Create engine
+engine = create_engine_from_config(Path('Opus/config/config.yaml'))
+
+# Create batch processor
+processor = BatchProcessor(engine)
+
+# Process pool
+stats = processor.process_pool(
+    pool_file=Path('Opus/data/subjects/pool_12000.json'),
+    start_index=0,
+    max_entries=100,
+    skip_existing=True
+)
+
+print(f"Completed: {stats.completed}")
+print(f"Average quality: {stats.average_quality_score:.3f}")
+```
+
+---
+
+## Architecture
+
+### Core Components
+
+1. **LLM Interface** (`llm_interface.py`)
+   - Unified interface for local (llama.cpp) and API-based backends
+   - Automatic retry with exponential backoff
+   - Token counting and cost estimation
+
+2. **Validators** (`validators.py`)
+   - **Theological**: Heresy detection, council compliance
+   - **Style**: ALPHA, BETA, GAMMA, DELTA rulesets
+   - **Patristic**: Citation verification
+   - **Structural**: Entry structure requirements
+
+3. **Checkpoint Manager** (`checkpoint_manager.py`)
+   - Save/resume generation state
+   - Corruption detection
+   - Automatic cleanup
+
+4. **Multi-Tier Cache** (`caching.py`)
+   - L1: Hot RAM cache (5,000 entries)
+   - L2: Warm RAM cache (50,000 entries)
+   - L3: Compressed disk cache (unlimited)
+
+5. **Opus Engine** (`opus_engine.py`)
+   - Main generation orchestrator
+   - Integrates all components
+   - Error recovery and retry logic
+
+6. **Batch Processor** (`batch_processor.py`)
+   - Unattended multi-entry generation
+   - Progress tracking with tqdm
+   - Error logging and statistics
+
+---
+
+## Performance
+
+### Expected Generation Times
+
+| Metric | Cold Cache | Hot Cache |
+|--------|-----------|-----------|
+| Single Entry (10k words) | 45-90 min | 30-45 min |
+| Blueprint Only | 3-5 min | 1-2 min |
+| Single Section (2k words) | 8-12 min | 5-8 min |
+
+*Based on 16GB VRAM GPU with Q5_K_M quantization*
+
+### Realistic Timelines
+
+- **10 entries**: 1-2 days (24/7 operation)
+- **100 entries**: 2-4 weeks
+- **1,000 entries**: 6-12 months
+- **12,000 entries**: 3-5 years
+
+### Cost Estimates
+
+**Self-Hosted:**
+- Hardware: $3,000-$5,000 (GPU + system)
+- Electricity: ~$500-$1,000/year (24/7 operation)
+
+**API-Based (OpenAI/Anthropic):**
+- 12,000 entries: ~$10,000-$30,000
+- 100 entries: ~$100-$300
+
+---
+
+## Limitations
+
+### Technical Limitations
+
+1. **No Semantic Validation**: Cannot detect logical contradictions
+2. **Regex-Based Heresy Detection**: May miss subtle theological errors
+3. **Citation Accuracy Not Verified**: Counts citations but doesn't verify quotes
+4. **Single-Threaded Generation**: Cannot parallelize entry generation
+
+### Theological Limitations
+
+1. **No Church Oversight**: Not reviewed by Orthodox theologians
+2. **AI-Generated Content**: Lacks spiritual discernment
+3. **Possible Errors**: May contain subtle theological mistakes
+4. **No Ecclesial Authority**: Cannot teach authoritatively
+
+⚠️ **All generated content should be reviewed by qualified Orthodox theologians before publication.**
+
+---
+
+## Troubleshooting
+
+### "Model file not found"
+
+Check `model.path` in `config.yaml` points to actual GGUF file.
+
+### "Out of memory" (CUDA)
+
+- Reduce `n_ctx` to 8192 or 4096
+- Use smaller quantization (Q4 instead of Q5)
+- Reduce `n_gpu_layers`
+
+### Generation Very Slow
+
+- Check GPU utilization: `nvidia-smi`
+- Ensure `n_gpu_layers: -1` (all layers on GPU)
+- Use faster quantization (Q5_K_M or Q6_K)
+
+---
+
+## Development
+
+### Running Tests
+
+```bash
+pytest Opus/tests/ -v
+```
+
+### Code Quality
+
+```bash
+# Format code
+black Opus/src/
+
+# Type checking
+mypy Opus/src/
+
+# Linting
+flake8 Opus/src/
+```
+
+---
+
+## Disclaimer
+
+This system generates AI-powered theological content. While sophisticated validation is employed, **all output requires review by qualified Orthodox theologians** before use in teaching, publication, or spiritual guidance.
+
+The system is provided "as-is" without warranty. The authors are not responsible for theological errors, misuse, or reliance on generated content without proper review.
+
+---
+
+**Status:** Active Development
+**Last Updated:** November 10, 2025
+**Version:** 2.0.0

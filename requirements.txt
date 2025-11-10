@@ -1,0 +1,63 @@
+# OPUS MAXIMUS - Core Dependencies
+# Installation: pip install -r requirements.txt
+
+# ============================================================================
+# LLM Backend (choose one based on your setup)
+# ============================================================================
+# For CUDA 11.8
+# llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu118
+
+# For CUDA 12.1
+# llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu121
+
+# For CPU/Metal (macOS)
+llama-cpp-python>=0.2.0
+
+# Alternative: OpenAI-compatible APIs
+openai>=1.0.0
+
+# ============================================================================
+# Core Dependencies
+# ============================================================================
+pyyaml>=6.0
+rich>=13.0
+tqdm>=4.65
+python-dateutil>=2.8
+
+# ============================================================================
+# Testing Framework
+# ============================================================================
+pytest>=7.4
+pytest-cov>=4.1
+pytest-mock>=3.12
+pytest-asyncio>=0.21
+hypothesis>=6.87
+
+# ============================================================================
+# Code Quality
+# ============================================================================
+black>=23.0
+mypy>=1.5
+flake8>=6.1
+pylint>=3.0
+
+# ============================================================================
+# Optional: Semantic Analysis
+# ============================================================================
+# sentence-transformers>=2.2  # For embeddings-based validation
+# faiss-cpu>=1.7              # For similarity search
+# numpy>=1.24
+# scipy>=1.11
+
+# ============================================================================
+# Optional: Dashboard (install separately if needed)
+# ============================================================================
+# streamlit>=1.28
+# plotly>=5.17
+# pandas>=2.0
+
+# ============================================================================
+# Optional: Advanced Features
+# ============================================================================
+# anthropic>=0.7              # For Claude API
+# together>=0.2               # For Together.ai API
