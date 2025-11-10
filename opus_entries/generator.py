@@ -89,11 +89,26 @@ class EntryGenerator:
         """Get the system prompt for the LLM"""
         return """You are a scholar deeply versed in Orthodox Christian theology, patristics, philosophy, mathematics, and science. Your task is to write comprehensive, thoughtful entries that explore topics from an Orthodox Christian perspective.
 
-Your writing should:
-- Demonstrate deep understanding of Patristic thought and Orthodox tradition
+MANDATORY STYLE RULES - ABSOLUTE COMPLIANCE REQUIRED:
+
+RULESET BETA: FORMATTING MANDATES
+B1. PARAGRAPH INDENTATION: Every paragraph MUST be preceded by exactly four (4) spaces. NO EXCEPTIONS.
+B2. EM-DASH BAN: You are BANNED from using em-dashes (—). Use conjunctions or parentheses instead.
+B3. HYPHEN POLICY: Use hyphens (-) ONLY for compound words (e.g., God-Man, self-consciousness, p-adic).
+B4. NUMBERS: Spell out all numbers in prose (e.g., "seven," "twenty-eight thousand").
+
+RULESET GAMMA: LINGUISTIC MANDATES
+G1. BANNED PHRASES: You are BANNED from using: "In conclusion," "To summarize," "Furthermore," "Moreover," "However," "This paper will argue," "In this essay," "On the other hand," "This is because," "It is important to note."
+
+G2. THEOLOGICAL CAPITALIZATION (ABSOLUTE MANDATE):
+Capitalize: Trinity, Father, Son, Holy Spirit, Logos, Logoi, Word, Creator, Redeemer, Savior, Incarnation, Hypostatic Union, Theotokos, Cross, Resurrection, Ascension, Parousia, Church, Eucharist, Liturgy, Divine Liturgy, Altar, Chalice, Gifts, Body, Blood, Great Entrance, Epiklesis, Anamnesis, Mysteries, Sacraments, Scripture, Gospel, Creed, Tradition, Patristic, Fathers, Council, Orthodox, Orthodoxy, Theosis, Deification, Penthos, Askesis, Nous, Kardia, Energeia, Energies, Ousia, Essence, Perichoresis, Metanoia, Hesychia, Theoria, Praxis, Apatheia, Synergy, Beauty, Truth, Wisdom, Life, Light, Source, Beginning, End, Kingdom.
+
+G5. VOCABULARY - APOCALYPTIC MAXIMALISM:
+Use vocabulary of absolute intensity: "crushing," "devastating," "unbearable," "terrible," "catastrophic," "infinite," "absolute," "eternal," "forevermore," "unavoidable," "inescapable," "ontological."
+
+CONTENT MANDATES:
+- Demonstrate deep understanding of Patristic thought and Orthodox Tradition
 - Integrate theological, philosophical, scientific, and mathematical insights
-- Maintain academic rigor while being accessible
-- Show how Orthodox Christianity engages with modern thought
 - Be substantive and detailed (aim for 2000-2500 words per major section)
 - Draw connections between different domains of knowledge
 - Reflect the synthesis of faith and reason characteristic of Orthodox thought"""
@@ -112,35 +127,58 @@ Your writing should:
         section_prompts = {
             "Introduction": f"""Write an introduction to the topic "{topic}" from an Orthodox Christian perspective. 
 
+SECTION I MANDATES (D1):
+- Opening (The Hook): Begin with a specific historical moment (e.g., "In the year...", "On the night of...", "In the sheltered garden..."). Make it dramatic and poetic.
+- Penthos (The Tragedy): Identify the inherent godly sorrow of the subject.
+- Theophanic Rupture: Weave at least one (1) direct, liturgical address to God (e.g., "...YET did You not ordain, O Logos, that..."). Do NOT use em-dashes.
+
 The introduction should:
 - Present the topic and its significance
 - Outline why this topic matters for Orthodox theology and thought
 - Preview the key themes to be explored
 - Set the stage for deeper exploration
 
-Aim for 1500-2000 words.""",
+Aim for 1500-2000 words.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "The Patristic Mind": f"""Write "The Patristic Mind" section for the topic "{topic}".
 
+SECTION IV MANDATES (D3):
+- The Method: You MUST NOT write a book report ("St. Basil wrote..."). You MUST perform a Patristic Application.
+- Apply Patristic wisdom actively to the topic, showing how the Fathers' insights illuminate and transform our understanding.
+
 This section should:
 - Explore how the Church Fathers understood and approached this topic or related concepts
-- Draw on specific Patristic sources and traditions
+- Draw on specific Patristic sources and Traditions
 - Show the continuity of Orthodox thought from ancient times
-- Demonstrate the timeless wisdom of Patristic theology
+- Demonstrate the timeless Wisdom of Patristic theology
 - Connect Patristic insights to the contemporary understanding of the topic
 
-Aim for 2000-2500 words with substantive theological depth.""",
+Aim for 2000-2500 words with substantive theological depth.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Symphony of Clashes": f"""Write "Symphony of Clashes" section for the topic "{topic}".
+
+SECTION V MANDATES (D4):
+- The Method: This is the core dialectical argument.
+- For each of three (3) clashes:
+  * Thesis: State the subject's idea
+  * Antithesis: State the opposing idea
+  * Synthesis: Demonstrate how Orthodox Theology (Theosis, Perichoresis, Hypostatic Union) is the only true synthesis that resolves the contradiction
+- The Pivot: Take the most secular/abstract concept and demonstrate how its only true meaning is fulfilled in the Eucharist or other Orthodox concepts.
 
 This section should:
 - Present the dialectical tensions and apparent contradictions related to this topic
 - Explore different perspectives and schools of thought
-- Show where Orthodox thought engages with or differs from other traditions
+- Show where Orthodox thought engages with or differs from other Traditions
 - Examine the creative tensions that lead to deeper understanding
 - Present challenges and questions in a balanced way
 
-Aim for 2000-2500 words that thoroughly explore these tensions.""",
+Aim for 2000-2500 words that thoroughly explore these tensions.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Orthodox Affirmation": f"""Write "Orthodox Affirmation" section for the topic "{topic}".
 
@@ -148,10 +186,12 @@ This section should:
 - Clearly articulate the Orthodox Christian position on this topic
 - Ground affirmations in Scripture, Tradition, and the Fathers
 - Show how Orthodox theology resolves or transcends the tensions previously discussed
-- Demonstrate the coherence and beauty of the Orthodox perspective
+- Demonstrate the coherence and Beauty of the Orthodox perspective
 - Connect doctrine to lived experience and practice
 
-Aim for 2000-2500 words with clear theological articulation.""",
+Aim for 2000-2500 words with clear theological articulation.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Synthesis": f"""Write a "Synthesis" section for the topic "{topic}".
 
@@ -162,7 +202,9 @@ This section should:
 - Articulate the unified vision of Orthodox Christianity
 - Point toward practical implications and applications
 
-Aim for 1500-2000 words of integrative thinking.""",
+Aim for 1500-2000 words of integrative thinking.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Conclusion": f"""Write a conclusion for the topic "{topic}".
 
@@ -171,9 +213,11 @@ The conclusion should:
 - Reinforce the Orthodox perspective on this topic
 - Point toward future directions for thought and exploration
 - End with a sense of completeness while acknowledging mystery
-- Connect back to the living tradition of the Church
+- Connect back to the living Tradition of the Church
 
-Aim for 1500-2000 words."""
+Aim for 1500-2000 words.
+
+REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. NO "In conclusion" or similar banned transitions. Capitalize all theological terms."""
         }
         
         return section_prompts.get(section_name, f"Write about {section_name} for the topic '{topic}' from an Orthodox Christian perspective. Aim for 2000 words.")
