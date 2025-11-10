@@ -1,28 +1,63 @@
-# OPUS MAXIMUS - Core Dependencies
+# OPUS MAXIMUS - Production Dependencies
+# ======================================
 # Installation: pip install -r requirements.txt
+#
+# For best performance, see SETUP_GUIDE_PRODUCTION.md
 
 # ============================================================================
-# LLM Backend (choose one based on your setup)
-# ============================================================================
-# For CUDA 11.8
-# llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu118
-
-# For CUDA 12.1
-# llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu121
-
-# For CPU/Metal (macOS)
-llama-cpp-python>=0.2.0
-
-# Alternative: OpenAI-compatible APIs
-openai>=1.0.0
-
-# ============================================================================
-# Core Dependencies
+# Core Dependencies (Always Required)
 # ============================================================================
 pyyaml>=6.0
 rich>=13.0
 tqdm>=4.65
 python-dateutil>=2.8
+
+# ============================================================================
+# LLM Backends - Install based on your hardware
+# ============================================================================
+
+# llama.cpp (Universal - CPU/GPU)
+# For CUDA 11.8:
+#   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu118
+# For CUDA 12.1:
+#   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu121
+# For CPU/Metal:
+llama-cpp-python>=0.2.0
+
+# vLLM (FASTEST - Production Recommended) ⭐
+# Requires: CUDA GPU with 16GB+ VRAM
+# vllm>=0.2.7
+
+# ExLlamaV2 (VRAM Efficient)
+# Requires: CUDA GPU
+# exllamav2>=0.0.11
+
+# SGLang (Structured Generation)
+# Requires: CUDA GPU
+# sglang[all]>=0.1.0
+
+# ============================================================================
+# API Backends (Alternative to Local)
+# ============================================================================
+openai>=1.0.0  # For OpenAI API or compatible endpoints
+# anthropic>=0.7  # For Claude API
+# together>=0.2  # For Together.ai API
+
+# ============================================================================
+# Model Management
+# ============================================================================
+huggingface_hub[cli]>=0.19.0  # For downloading models
+transformers>=4.35.0  # For tokenizers
+accelerate>=0.24.0  # For model loading
+# bitsandbytes>=0.41  # For quantization (optional)
+
+# ============================================================================
+# Monitoring and Optimization
+# ============================================================================
+nvidia-ml-py3>=7.352.0  # GPU monitoring
+psutil>=5.9.0  # System monitoring
+gpustat>=1.1  # GPU stats
+# py-cpuinfo>=9.0  # CPU info (optional)
 
 # ============================================================================
 # Testing Framework
@@ -42,22 +77,48 @@ flake8>=6.1
 pylint>=3.0
 
 # ============================================================================
-# Optional: Semantic Analysis
+# Optional: Semantic Analysis and Advanced Features
 # ============================================================================
 # sentence-transformers>=2.2  # For embeddings-based validation
 # faiss-cpu>=1.7              # For similarity search
+# outlines>=0.0.20            # Constrained generation
+# guidance>=0.1.0             # Structured prompting
 # numpy>=1.24
 # scipy>=1.11
 
 # ============================================================================
-# Optional: Dashboard (install separately if needed)
+# Optional: Dashboard and Visualization
 # ============================================================================
 # streamlit>=1.28
 # plotly>=5.17
 # pandas>=2.0
 
 # ============================================================================
-# Optional: Advanced Features
+# Development Tools
 # ============================================================================
-# anthropic>=0.7              # For Claude API
-# together>=0.2               # For Together.ai API
+ipython>=8.12  # Interactive shell
+jupyter>=1.0  # Notebooks (optional)
+
+# ============================================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================================
+#
+# BASIC SETUP (CPU/Basic GPU):
+#   pip install -r requirements.txt
+#
+# PRODUCTION SETUP (Best Performance):
+#   1. Install base requirements:
+#      pip install -r requirements.txt
+#
+#   2. Install vLLM (fastest):
+#      pip install vllm
+#
+#   3. Optional: Install ExLlamaV2 and SGLang:
+#      pip install exllamav2
+#      pip install "sglang[all]"
+#
+# AUTOMATED SETUP:
+#   chmod +x scripts/setup_production.sh
+#   ./scripts/setup_production.sh
+#
+# See SETUP_GUIDE_PRODUCTION.md for detailed instructions.

@@ -12,6 +12,21 @@ __author__ = "Opus Maximus Project"
 from .opus_engine import OpusMaximusEngine, OpusConfig, GenerationResult
 from .batch_processor import BatchProcessor, BatchStatistics
 from .llm_interface import create_llm, LocalLLM, APILLM
+
+# Advanced backends (optional - require specific dependencies)
+try:
+    from .llm_backends_advanced import (
+        create_advanced_llm,
+        vLLMBackend,
+        ExLlamaV2Backend,
+        SGLangBackend,
+        list_available_backends,
+        benchmark_backend
+    )
+    ADVANCED_BACKENDS_AVAILABLE = True
+except ImportError:
+    ADVANCED_BACKENDS_AVAILABLE = False
+
 from .validators import (
     TheologicalValidator,
     StyleValidator,
