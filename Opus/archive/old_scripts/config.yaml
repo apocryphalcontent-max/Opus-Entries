@@ -1,0 +1,206 @@
+# ============================================================================
+# OPUS MAXIMUS - CENTRALIZED CONFIGURATION
+# ============================================================================
+# All system paths, parameters, and settings in one place
+# Last updated: 2025-11-07
+# ============================================================================
+
+# DIRECTORIES
+# ============================================================================
+directories:
+  output: "GENERATED_ENTRIES_MASTER"
+  golden: "OPUS_MAXIMUS_INDIVIDUALIZED/Enhancement_Corpus"
+  patristics_library: "patristics_library"
+  models: "models"
+
+# DATABASE PATHS
+# ============================================================================
+database:
+  chroma_path: "research_db_chroma"
+  faiss_index: "uniqueness.faiss"
+  entry_names: "entry_names.pkl"
+  phrase_registry: "phrase_registry.pkl"
+  telemetry: "telemetry.db"
+  knowledge_graph: "knowledge_graph_edges.jsonl"
+
+# GENERATION PARAMETERS
+# ============================================================================
+generation:
+  # Tier priority for batch processing
+  tier_priority:
+    - "S+"
+    - "S"
+    - "A"
+    - "B"
+    - "C"
+
+  # Word count mandates (Ruleset ALPHA)
+  min_word_count: 10000
+  section_word_targets:
+    - 2000  # I. Strategic Role
+    - 1000  # II. Classification
+    - 1500  # III. Primary Works
+    - 2500  # IV. The Patristic Mind
+    - 2500  # V. Symphony of Clashes
+    - 2000  # VI. Orthodox Affirmation
+
+  min_section_word_counts:
+    - 1500  # I. Strategic Role
+    - 800   # II. Classification
+    - 1000  # III. Primary Works
+    - 2000  # IV. The Patristic Mind
+    - 2000  # V. Symphony of Clashes
+    - 1500  # VI. Orthodox Affirmation
+
+  # Retry limits
+  max_section_attempts: 3
+  max_expansion_attempts: 2
+  max_fact_check_attempts: 2
+
+  # Temperature scheduling
+  base_temperatures:
+    strategic_role: 0.9
+    classification: 0.5
+    primary_works: 0.5
+    patristic_mind: 0.8
+    symphony_clashes: 0.9
+    orthodox_affirmation: 0.95
+
+# LLM PARAMETERS
+# ============================================================================
+llm:
+  # Context window
+  default_n_ctx: 8192
+  min_n_ctx: 4096
+  max_n_ctx: 16384
+
+  # GPU offloading
+  default_n_gpu_layers: -1  # -1 = all layers
+
+  # Token generation
+  default_max_tokens: 10000
+  validation_max_tokens: 500
+
+  # Stopping tokens
+  stop_tokens:
+    - "<|eot_id|>"
+    - "</s>"
+
+  # Tiered model strategy
+  use_tiered_models: true
+  validator_n_gpu_layers: 20
+  validator_n_ctx: 4096
+
+# SEMANTIC SEARCH PARAMETERS
+# ============================================================================
+semantic_search:
+  patristic_limit: 10
+  biblical_limit: 5
+  apocryphal_limit: 3
+  min_similarity: 0.4
+  cross_reference_limit: 3
+
+# UNIQUENESS CHECKING
+# ============================================================================
+uniqueness:
+  similarity_threshold: 0.75
+  repeated_phrase_threshold: 20
+  fuzzy_match_threshold: 85
+  fuzzy_match_limit: 5
+  faiss_save_interval: 10  # Save every N entries
+
+# CHECKPOINTING
+# ============================================================================
+checkpointing:
+  enabled: true
+  save_after_each_section: true
+  checkpoint_dir: ".checkpoints"
+
+# RESOURCE MONITORING
+# ============================================================================
+resources:
+  # VRAM thresholds (GB)
+  vram_critical_threshold: 2.0
+  vram_warning_threshold: 5.0
+
+  # RAM thresholds (GB)
+  ram_critical_threshold: 4.0
+  ram_warning_threshold: 8.0
+
+  # Check interval (seconds)
+  monitor_interval: 30
+
+  # Graceful degradation
+  enable_degradation: true
+
+# TELEMETRY
+# ============================================================================
+telemetry:
+  enabled: true
+  log_level: "INFO"
+  structured_logging: true
+
+  # Metrics to track
+  track_section_times: true
+  track_vram_usage: true
+  track_validation_failures: true
+  track_llm_calls: true
+
+  # Retention
+  max_log_age_days: 30
+
+# QUALITY ASSURANCE
+# ============================================================================
+quality:
+  # Citation verification
+  verify_citations: true
+  citation_similarity_threshold: 0.7
+
+  # Theological consistency
+  check_consistency: true
+  consistency_check_limit: 5
+
+  # Benchmark suite
+  run_benchmarks: false
+  benchmark_sample_size: 10
+
+# ADVANCED FEATURES
+# ============================================================================
+advanced:
+  # Blueprint library
+  blueprint_library_enabled: true
+  blueprint_library_path: "blueprint_library.json"
+
+  # Failure pattern detection
+  failure_detection_enabled: true
+  failure_history_limit: 50
+
+  # Knowledge graph
+  knowledge_graph_enabled: false  # Set to true after building
+
+  # Multi-GPU distribution
+  multi_gpu_enabled: false
+  num_gpus: 1
+
+# CATEGORY MAPPINGS
+# ============================================================================
+category_dirs:
+  Biblical: "Biblical_Figures"
+  Patristic: "Patristic_Figures"
+  Theology: "Theology"
+  Mathematics: "Mathematics"
+  Physics: "Physics"
+  Philosophy: "Philosophy"
+  Science: "Science"
+  Literature: "Literature"
+  History: "History"
+  Miscellaneous: "Miscellaneous"
+
+# LOGGING
+# ============================================================================
+logging:
+  console_level: "INFO"
+  file_level: "DEBUG"
+  json_logging: true
+  log_file: "opus_master_generator.log"
+  telemetry_file: "telemetry.jsonl"

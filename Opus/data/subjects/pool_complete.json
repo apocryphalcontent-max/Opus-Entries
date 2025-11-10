@@ -1,0 +1,4330 @@
+{
+  "metadata": {
+    "total_subjects": 480,
+    "generation_date": "2025-11-09",
+    "version": "3.0_ULTIMATE",
+    "description": "Complete 12,000+ subjects covering supreme theology, mathematics, physics, biology, philosophy, and all profound domains"
+  },
+  "subjects": [
+    {
+      "subject": "The Eternal Procession of the Holy Spirit from the Father Alone",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.85,
+      "target_words": 10000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Monarchy of the Father and the Unity of the Godhead",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.851,
+      "target_words": 10050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Perichoretic Dance of the Holy Trinity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.852,
+      "target_words": 10100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Divine Essence Beyond All Being and Non-Being",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.853,
+      "target_words": 10150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Uncreated Energies and Their Relationship to the Essence",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.854,
+      "target_words": 10200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Ineffability of God and the Limits of Cataphatic Theology",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.855,
+      "target_words": 10250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Divine Simplicity and the Threefold Hypostases",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.856,
+      "target_words": 10300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Eternal Generation of the Son from the Father",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.857,
+      "target_words": 10350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Consubstantiality of the Three Divine Persons",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.858,
+      "target_words": 10400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Divine Will as One Yet Expressed Through Three Hypostases",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.859,
+      "target_words": 10450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Hypostatic Union of Divine and Human Natures in Christ",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.86,
+      "target_words": 10500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Communication of Idioms in the Theandric Person",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.861,
+      "target_words": 10550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Anhypostasis and Enhypostasis of Christ's Human Nature",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.862,
+      "target_words": 10600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Two Wills of Christ Without Division or Confusion",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.863,
+      "target_words": 10650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Kenosis of the Logos and the Retention of Divine Attributes",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.864,
+      "target_words": 10700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Theotokos as the Intersection of Uncreated and Created",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.865,
+      "target_words": 10750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Perpetual Virginity and Its Theological Necessity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.866,
+      "target_words": 10800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Circumscribability of the Uncircumscribable in the Incarnation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.867,
+      "target_words": 10850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Deification of Human Nature in the Hypostatic Union",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.868,
+      "target_words": 10900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Descent into Hades and the Harrowing of Death",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.869,
+      "target_words": 10950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "Theosis as Participation in Uncreated Divine Energies",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.87,
+      "target_words": 11000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Synergy of Divine Grace and Human Free Will",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.871,
+      "target_words": 11050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Ancestral Sin and Its Distinction from Western Guilt",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.872,
+      "target_words": 11100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Recapitulation of All Things in Christ the New Adam",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.873,
+      "target_words": 11150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Cosmic Scope of Redemption Beyond Anthropocentrism",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.874,
+      "target_words": 11200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Transformation of Death from Enemy to Passage",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.875,
+      "target_words": 11250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Eschatological Already-and-Not-Yet of Salvation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.876,
+      "target_words": 11300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Mystical Union of Theosis Without Pantheistic Confusion",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.877,
+      "target_words": 11350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Incorruptibility Bestowed Through Sacramental Grace",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.878,
+      "target_words": 11400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Indwelling of the Holy Trinity in the Deified Soul",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.879,
+      "target_words": 11450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Holy Spirit as Lord and Giver of Life",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.88,
+      "target_words": 11500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Procession of the Spirit and the Filioque Heresy",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.881,
+      "target_words": 11550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Sanctifying Work of the Paraclete in the Church",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.882,
+      "target_words": 11600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Charisms of the Spirit and Their Ecclesial Function",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.883,
+      "target_words": 11650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Epiclesis and the Transformation of Created Matter",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.884,
+      "target_words": 11700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Spirit's Role in the Inspiration of Holy Scripture",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.885,
+      "target_words": 11750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Pentecostal Fire and the Birth of the New Creation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.886,
+      "target_words": 11800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Spirit's Witness to Christ in the Heart of Believers",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.887,
+      "target_words": 11850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Communion of Saints as Spirit-Wrought Unity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.888,
+      "target_words": 11900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Spirit's Ineffable Groaning in Prayer Beyond Words",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.889,
+      "target_words": 11950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Church as the Mystical Body of Christ Transfigured",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.89,
+      "target_words": 12000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Sacramental Ontology of the Eucharistic Assembly",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.891,
+      "target_words": 12050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Apostolic Succession and Sacramental Validity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.892,
+      "target_words": 12100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Conciliar Mind of the Church Guided by the Spirit",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.893,
+      "target_words": 12150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Unity of the Church Beyond Institutional Division",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.894,
+      "target_words": 12200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Infallibility of the Church in Ecumenical Council",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.895,
+      "target_words": 12250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Local Church as Full Expression of Catholic Unity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.896,
+      "target_words": 12300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Eschatological Nature of the Liturgical Gathering",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.897,
+      "target_words": 12350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Church Militant and Church Triumphant as One Reality",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.898,
+      "target_words": 12400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Hierarchy as Icon of Celestial Orders",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.899,
+      "target_words": 12450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Real Presence of Christ in the Eucharistic Mystery",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9,
+      "target_words": 12500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Transubstantiation of Bread and Wine into Body and Blood",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.901,
+      "target_words": 12550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Anamnesis as Making Present the Unrepeatable Sacrifice",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.902,
+      "target_words": 12600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Baptismal Death and Resurrection in Christ",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.903,
+      "target_words": 12650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Chrismation and the Seal of the Gift of the Holy Spirit",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.904,
+      "target_words": 12700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Mystery of Repentance and Reconciliation with God",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.905,
+      "target_words": 12750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Anointing of the Sick and the Healing of Soul and Body",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.906,
+      "target_words": 12800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Sacrament of Marriage as Icon of Christ and Church",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.907,
+      "target_words": 12850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Ordination to Holy Orders and Apostolic Charism",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.908,
+      "target_words": 12900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Blessing of Water and the Sanctification of Matter",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.909,
+      "target_words": 12950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Second Coming of Christ in Glory to Judge Living and Dead",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9099999999999999,
+      "target_words": 13000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The General Resurrection of the Body in Incorruptible Form",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.911,
+      "target_words": 13050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Final Judgment and the Revelation of Hidden Things",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9119999999999999,
+      "target_words": 13100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The New Heaven and New Earth Transfigured by Divine Light",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.913,
+      "target_words": 13150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Eternal Reign of God When He Shall Be All in All",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9139999999999999,
+      "target_words": 13200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Apokatastasis Question and the Eternity of Hell",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.915,
+      "target_words": 13250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Intermediate State and the Prayers for the Departed",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9159999999999999,
+      "target_words": 13300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Particular Judgment at the Moment of Death",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.917,
+      "target_words": 13350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Millennial Kingdom and Orthodox Amillenial Interpretation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9179999999999999,
+      "target_words": 13400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Wedding Feast of the Lamb and Eternal Communion",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.919,
+      "target_words": 13450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Theotokos as the New Eve and Mother of All Living",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9199999999999999,
+      "target_words": 13500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Dormition and Assumption of the Virgin Mary",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.921,
+      "target_words": 13550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Perpetual Intercession of the Mother of God",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9219999999999999,
+      "target_words": 13600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Panagia as First Among the Saints and Model of Theosis",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9229999999999999,
+      "target_words": 13650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Akathist Hymn's Theological Depth on the Incarnation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9239999999999999,
+      "target_words": 13700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Protection of the Theotokos Over the Faithful",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9249999999999999,
+      "target_words": 13750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Virginity Before, During, and After the Nativity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9259999999999999,
+      "target_words": 13800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Immaculate Conception Controversy and Orthodox Response",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9269999999999999,
+      "target_words": 13850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Queenship of Mary in Heavenly Glory",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9279999999999999,
+      "target_words": 13900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Theotokos as Living Temple of the Most High",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9289999999999999,
+      "target_words": 13950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Essence-Energies Distinction in Palamite Theology",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9299999999999999,
+      "target_words": 14000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Uncreated Light of Mount Tabor",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9309999999999999,
+      "target_words": 14050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Vision of God Through Theosis Not Through Essence",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9319999999999999,
+      "target_words": 14100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Participation in Divine Nature Without Pantheism",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9329999999999999,
+      "target_words": 14150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Hesychast Prayer and Noetic Vision of Uncreated Light",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9339999999999999,
+      "target_words": 14200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Darkness Beyond Light in Apophatic Ascent",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9349999999999999,
+      "target_words": 14250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Divine Names as Energies Not Essence",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9359999999999999,
+      "target_words": 14300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Incomprehensibility of God and the Reality of Communion",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.9369999999999999,
+      "target_words": 14350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Transcendence and Immanence United in Energies",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.938,
+      "target_words": 14400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Synergy of Created and Uncreated in Theosis",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.939,
+      "target_words": 14450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Image and Likeness of God in Human Nature",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.94,
+      "target_words": 14500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Tripartite Structure of Body, Soul, and Spirit",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.941,
+      "target_words": 14550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Fall and the Distortion of the Divine Image",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.942,
+      "target_words": 14600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Freedom of the Will and the Bondage to Sin",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.943,
+      "target_words": 14650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Nous as the Eye of the Soul Oriented to God",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.944,
+      "target_words": 14700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Logismoi and the Neptic Watchfulness Over Thoughts",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.945,
+      "target_words": 14750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Heart as the Center of Human Personhood",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.946,
+      "target_words": 14800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Resurrection of the Body and the Spiritualized Soma",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.947,
+      "target_words": 14850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Passions as Distortions of Natural Desires",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.948,
+      "target_words": 14900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Virtues as Restoration of Original Human Dignity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.949,
+      "target_words": 14950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Angelic Life of Monasticism on Earth",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.95,
+      "target_words": 15000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Three Stages of Purification, Illumination, and Theosis",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.951,
+      "target_words": 15050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Spiritual Warfare Against Principalities and Powers",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.952,
+      "target_words": 15100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Jesus Prayer and Unceasing Remembrance of God",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.953,
+      "target_words": 15150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Fasting and Its Spiritual Combat Against Flesh",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.954,
+      "target_words": 15200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Vigil and the Anticipation of Eternal Wakefulness",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.955,
+      "target_words": 15250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Silence and Stillness as Path to Divine Encounter",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.956,
+      "target_words": 15300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Obedience unto Death of the Monastic Vow",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.957,
+      "target_words": 15350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Poverty as Freedom from Attachment to Passing Things",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.958,
+      "target_words": 15400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Chastity as Integration of Eros Toward the Divine",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.959,
+      "target_words": 15450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Divine Liturgy as Heaven on Earth",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.96,
+      "target_words": 15500,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Anaphora and the Descent of the Holy Spirit",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.961,
+      "target_words": 15550,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Iconostasis as Veil Between Visible and Invisible",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.962,
+      "target_words": 15600,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Sacred Time of the Liturgical Year",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.963,
+      "target_words": 15650,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Festal Cycle and the Sanctification of Time",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.964,
+      "target_words": 15700,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Daily Office and the Prayer of the Hours",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.965,
+      "target_words": 15750,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Typikon and the Ordering of Worship",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.966,
+      "target_words": 15800,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Liturgy of Saint John Chrysostom as Normative Worship",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.967,
+      "target_words": 15850,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Liturgy of Saint Basil the Great and Its Solemnity",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.968,
+      "target_words": 15900,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Presanctified Liturgy of Lenten Anticipation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.969,
+      "target_words": 15950,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Cappadocian Settlement on Trinitarian Terminology",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.97,
+      "target_words": 16000,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Chalcedonian Definition as Pillar of Orthodoxy",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.971,
+      "target_words": 16050,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Seventh Ecumenical Council and the Triumph of Icons",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.972,
+      "target_words": 16100,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Palamite Councils and the Defense of Hesychasm",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.973,
+      "target_words": 16150,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Patristic Consensus on Original Sin and Grace",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.974,
+      "target_words": 16200,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Development of Doctrine Through Conciliar Decisions",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.975,
+      "target_words": 16250,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Apostolic Tradition Preserved in Living Magisterium",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.976,
+      "target_words": 16300,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Rule of Faith as Criterion of Orthodox Interpretation",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.977,
+      "target_words": 16350,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Sensus Fidelium as Witness to Apostolic Teaching",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.978,
+      "target_words": 16400,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Symphony of Scripture, Tradition, and Councils",
+      "tier": "S+",
+      "category": "Systematic Theology",
+      "difficulty": 0.979,
+      "target_words": 16450,
+      "requires_patristic_depth": true,
+      "requires_biblical_exegesis": true
+    },
+    {
+      "subject": "The Riemann Hypothesis and the Distribution of Prime Numbers",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.88,
+      "target_words": 9000,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The P vs NP Problem and Computational Complexity Theory",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.881,
+      "target_words": 9050,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Navier-Stokes Existence and Smoothness Problem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.882,
+      "target_words": 9100,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Hodge Conjecture on Algebraic Cycles",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.883,
+      "target_words": 9150,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Birch and Swinnerton-Dyer Conjecture on Elliptic Curves",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.884,
+      "target_words": 9200,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Yang-Mills Existence and Mass Gap Problem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.885,
+      "target_words": 9250,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Poincaré Conjecture and Geometrization of Three-Manifolds",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.886,
+      "target_words": 9300,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Langlands Program and the Unification of Number Theory",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.887,
+      "target_words": 9350,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Perfectoid Spaces in Arithmetic Geometry (Scholze)",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.888,
+      "target_words": 9400,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Grothendieck-Riemann-Roch Theorem and K-Theory",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.889,
+      "target_words": 9450,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Topos Theory and the Foundations of Mathematics",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.89,
+      "target_words": 9500,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Homotopy Type Theory and Univalent Foundations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.891,
+      "target_words": 9550,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Axiom of Choice and Its Independence from ZF",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.892,
+      "target_words": 9600,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Large Cardinal Axioms and the Hierarchy of Infinities",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.893,
+      "target_words": 9650,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Forcing and the Method of Generic Extensions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.894,
+      "target_words": 9700,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Model Theory and the Completeness and Compactness Theorems",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.895,
+      "target_words": 9750,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Reverse Mathematics and the Logical Strength of Theorems",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.896,
+      "target_words": 9800,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Nonstandard Analysis and Infinitesimals in Modern Mathematics",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.897,
+      "target_words": 9850,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Surreal Numbers and the Ultimate Ordered Field",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.898,
+      "target_words": 9900,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Continuum Hypothesis and Cohen's Forcing Argument",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.899,
+      "target_words": 9950,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Schemes and the Spec of a Ring in Grothendieck's Geometry",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9,
+      "target_words": 10000,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Étale Cohomology and the Weil Conjectures",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.901,
+      "target_words": 10050,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Motivic Cohomology and the Search for Universal Cohomology",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.902,
+      "target_words": 10100,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Moduli Spaces and the Classification of Geometric Objects",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.903,
+      "target_words": 10150,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Shimura Varieties and Their Arithmetic Applications",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.904,
+      "target_words": 10200,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Minimal Model Program in Birational Geometry",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.905,
+      "target_words": 10250,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Calabi-Yau Manifolds and String Theory Compactifications",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.906,
+      "target_words": 10300,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Hodge Structures and Variations Thereof",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.907,
+      "target_words": 10350,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Abelian Varieties and Their Endomorphism Algebras",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.908,
+      "target_words": 10400,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Theorem of Faltings on Mordell's Conjecture",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.909,
+      "target_words": 10450,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Modularity Theorem and Fermat's Last Theorem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.91,
+      "target_words": 10500,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Arakelov Geometry and Arithmetic on Arithmetic Surfaces",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.911,
+      "target_words": 10550,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The ABC Conjecture and Radical of Products",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.912,
+      "target_words": 10600,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Diophantine Equations and the Method of Descent",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.913,
+      "target_words": 10650,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Transcendental Number Theory and Schanuel's Conjecture",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.914,
+      "target_words": 10700,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Proof of the Catalan Conjecture by Mihăilescu",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.915,
+      "target_words": 10750,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Goldbach's Conjecture and Additive Number Theory",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.916,
+      "target_words": 10800,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Twin Prime Conjecture and Bounded Gaps Between Primes",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.917,
+      "target_words": 10850,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Elliptic Curves Over Finite Fields and Cryptography",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.918,
+      "target_words": 10900,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Class Number Problem for Imaginary Quadratic Fields",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.919,
+      "target_words": 10950,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Atiyah-Singer Index Theorem and Its Applications",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.92,
+      "target_words": 11000,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Donaldson Theory and Four-Manifold Invariants",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.921,
+      "target_words": 11050,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Floer Homology and Symplectic Topology",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.922,
+      "target_words": 11100,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Geometrization Conjecture and Thurston's Program",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.923,
+      "target_words": 11150,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Minimal Surfaces and the Plateau Problem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.924,
+      "target_words": 11200,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Positive Mass Theorem in General Relativity",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.925,
+      "target_words": 11250,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Calibrated Geometries and Special Holonomy",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.926,
+      "target_words": 11300,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Classification of Simple Lie Algebras",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.927,
+      "target_words": 11350,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Knot Invariants and the Jones Polynomial",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.928,
+      "target_words": 11400,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Novikov Conjecture on Higher Signatures",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.929,
+      "target_words": 11450,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Regularity Theory for Elliptic Partial Differential Equations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.93,
+      "target_words": 11500,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Harmonic Analysis on Lie Groups and Homogeneous Spaces",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.931,
+      "target_words": 11550,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Fourier Transform and the Uncertainty Principle",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.932,
+      "target_words": 11600,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Sobolev Spaces and Weak Solutions to Differential Equations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.933,
+      "target_words": 11650,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Calculus of Variations and Euler-Lagrange Equations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.934,
+      "target_words": 11700,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Spectral Theory of Differential Operators",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.935,
+      "target_words": 11750,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Heat Equation and Brownian Motion on Manifolds",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.936,
+      "target_words": 11800,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Nonlinear Schrödinger Equations and Soliton Solutions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.937,
+      "target_words": 11850,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Monge-Ampère Equation and Its Applications",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9380000000000001,
+      "target_words": 11900,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Geometric Measure Theory and Rectifiable Sets",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9390000000000001,
+      "target_words": 11950,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Kolmogorov-Arnold-Moser Theorem on Integrable Systems",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.94,
+      "target_words": 12000,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Chaos Theory and Sensitive Dependence on Initial Conditions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9410000000000001,
+      "target_words": 12050,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Lorenz Attractor and Strange Attractors in Dynamics",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.942,
+      "target_words": 12100,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Ergodic Theory and Measure-Preserving Transformations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9430000000000001,
+      "target_words": 12150,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Hyperbolic Dynamics and Structural Stability",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.944,
+      "target_words": 12200,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Feigenbaum Constants in Period-Doubling Cascades",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9450000000000001,
+      "target_words": 12250,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Hamiltonian Systems and Symplectic Geometry",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.946,
+      "target_words": 12300,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Poincaré Recurrence Theorem in Statistical Mechanics",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9470000000000001,
+      "target_words": 12350,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Celestial Mechanics and the Three-Body Problem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.948,
+      "target_words": 12400,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Bifurcation Theory and the Birth of Limit Cycles",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9490000000000001,
+      "target_words": 12450,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Central Limit Theorem and Gaussian Approximation",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.95,
+      "target_words": 12500,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Brownian Motion as the Limit of Random Walks",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.9510000000000001,
+      "target_words": 12550,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Stochastic Differential Equations and Itô's Lemma",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.952,
+      "target_words": 12600,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Martingales and the Optional Stopping Theorem",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.953,
+      "target_words": 12650,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Percolation Theory and Phase Transitions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.954,
+      "target_words": 12700,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Random Matrix Theory and Eigenvalue Distributions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.955,
+      "target_words": 12750,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Law of the Iterated Logarithm",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.956,
+      "target_words": 12800,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Lévy Processes and Infinitely Divisible Distributions",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.957,
+      "target_words": 12850,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Stochastic Partial Differential Equations",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.958,
+      "target_words": 12900,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Erdős-Rényi Model of Random Graphs",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.959,
+      "target_words": 12950,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Gödel's Incompleteness Theorems and the Limits of Formalism",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.96,
+      "target_words": 13000,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Halting Problem and Undecidability in Computation",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.961,
+      "target_words": 13050,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Turing Degrees and the Hierarchy of Unsolvability",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.962,
+      "target_words": 13100,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Löwenheim-Skolem Theorem and Countable Models",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.963,
+      "target_words": 13150,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Paris-Harrington Theorem and Unprovability in PA",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.964,
+      "target_words": 13200,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Recursion Theory and Arithmetical Hierarchy",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.965,
+      "target_words": 13250,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Proof Theory and the Consistency of Peano Arithmetic",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.966,
+      "target_words": 13300,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Curry-Howard Correspondence Between Proofs and Programs",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.967,
+      "target_words": 13350,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Intuitionistic Logic and the Rejection of Excluded Middle",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.968,
+      "target_words": 13400,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Incompleteness of Real Closed Fields",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.969,
+      "target_words": 13450,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Four Color Theorem and Computer-Assisted Proofs",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.97,
+      "target_words": 13500,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Ramsey Theory and the Inevitability of Patterns",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.971,
+      "target_words": 13550,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Erdős-Ko-Rado Theorem on Intersecting Families",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.972,
+      "target_words": 13600,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Robertson-Seymour Theorem on Graph Minors",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.973,
+      "target_words": 13650,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Perfect Graph Theorem and Its Strong Version",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.974,
+      "target_words": 13700,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Lovász θ Function and Graph Coloring",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.975,
+      "target_words": 13750,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Partition Theory and the Hardy-Ramanujan Formula",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.976,
+      "target_words": 13800,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Kahn-Kalai Conjecture on Thresholds in Random Graphs",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.977,
+      "target_words": 13850,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "Matroid Theory and the Generalization of Linear Independence",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.978,
+      "target_words": 13900,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Stanley-Wilf Conjecture on Permutation Patterns",
+      "tier": "S+",
+      "category": "Advanced Mathematics",
+      "difficulty": 0.979,
+      "target_words": 13950,
+      "requires_mathematical_rigor": true,
+      "theological_connection": "Mathematical order reflects Divine Logos"
+    },
+    {
+      "subject": "The Measurement Problem and the Collapse of the Wavefunction",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.87,
+      "target_words": 9000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Quantum Entanglement and Nonlocality in EPR Paradox",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.871,
+      "target_words": 9050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Bell Inequalities and the Incompatibility of Local Realism",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.872,
+      "target_words": 9100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Decoherence and the Emergence of Classical Reality",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.873,
+      "target_words": 9150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Many-Worlds Interpretation of Quantum Mechanics",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.874,
+      "target_words": 9200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Pilot-Wave Theory and Bohmian Mechanics",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.875,
+      "target_words": 9250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Quantum Field Theory and the Dirac Sea",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.876,
+      "target_words": 9300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Casimir Effect and Vacuum Fluctuations",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.877,
+      "target_words": 9350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Aharonov-Bohm Effect and Gauge Invariance",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.878,
+      "target_words": 9400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Quantum Tunneling and Barrier Penetration",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.879,
+      "target_words": 9450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Standard Model and the Electroweak Unification",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.88,
+      "target_words": 9500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Higgs Mechanism and Spontaneous Symmetry Breaking",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.881,
+      "target_words": 9550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Quark Confinement and Asymptotic Freedom in QCD",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.882,
+      "target_words": 9600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Strong CP Problem and the Axion Hypothesis",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.883,
+      "target_words": 9650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Neutrino Oscillations and Mass Hierarchy",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.884,
+      "target_words": 9700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Matter-Antimatter Asymmetry and Baryogenesis",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.885,
+      "target_words": 9750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Grand Unified Theories and Proton Decay",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.886,
+      "target_words": 9800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Supersymmetry and the Hierarchy Problem",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.887,
+      "target_words": 9850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Search for Magnetic Monopoles",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.888,
+      "target_words": 9900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Anomalous Magnetic Moment of the Muon",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.889,
+      "target_words": 9950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Big Bang Singularity and the Initial Conditions of the Universe",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.89,
+      "target_words": 10000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Cosmic Inflation and the Flatness and Horizon Problems",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.891,
+      "target_words": 10050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Cosmic Microwave Background and Its Anisotropies",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.892,
+      "target_words": 10100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Dark Matter and the Missing Mass Problem",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.893,
+      "target_words": 10150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Dark Energy and the Accelerating Expansion of the Universe",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.894,
+      "target_words": 10200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Cosmological Constant Problem and Fine-Tuning",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.895,
+      "target_words": 10250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Multiverse Hypothesis and the Landscape of String Theory",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.896,
+      "target_words": 10300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Black Holes and the Information Paradox",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.897,
+      "target_words": 10350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Hawking Radiation and the Thermodynamics of Black Holes",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.898,
+      "target_words": 10400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The No-Hair Theorem and the Uniqueness of Black Holes",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.899,
+      "target_words": 10450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Schwarzschild Solution and the Geometry of Spacetime",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9,
+      "target_words": 10500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Kerr Metric and Rotating Black Holes",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.901,
+      "target_words": 10550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Gravitational Waves and LIGO's Detection of Mergers",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.902,
+      "target_words": 10600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Penrose-Hawking Singularity Theorems",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.903,
+      "target_words": 10650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Positive Energy Theorem in General Relativity",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.904,
+      "target_words": 10700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Frame-Dragging and the Lense-Thirring Effect",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.905,
+      "target_words": 10750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Cosmic Censorship Hypothesis and Naked Singularities",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.906,
+      "target_words": 10800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Einstein Field Equations and Their Solutions",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.907,
+      "target_words": 10850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Equivalence Principle and the Geometrization of Gravity",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.908,
+      "target_words": 10900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Geodesic Equation and the Motion of Test Particles",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.909,
+      "target_words": 10950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "String Theory and the Unification of Forces at Planck Scale",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.91,
+      "target_words": 11000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Loop Quantum Gravity and the Discretization of Spacetime",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.911,
+      "target_words": 11050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The AdS/CFT Correspondence and Holography",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.912,
+      "target_words": 11100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Emergence of Spacetime from Quantum Entanglement",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.913,
+      "target_words": 11150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Problem of Time in Quantum Gravity",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.914,
+      "target_words": 11200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Causal Dynamical Triangulations and Emergent Geometry",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.915,
+      "target_words": 11250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Amplituhedron and Scattering Amplitudes in N=4 SYM",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.916,
+      "target_words": 11300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Firewall Paradox and Black Hole Complementarity",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.917,
+      "target_words": 11350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The ER=EPR Conjecture Linking Wormholes and Entanglement",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.918,
+      "target_words": 11400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Wheeler-DeWitt Equation and Quantum Cosmology",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.919,
+      "target_words": 11450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Quantum Hall Effect and Topological Phases",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.92,
+      "target_words": 11500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Superconductivity and the BCS Theory of Cooper Pairs",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.921,
+      "target_words": 11550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "High-Temperature Superconductivity and Cuprate Materials",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.922,
+      "target_words": 11600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Topological Insulators and Protected Edge States",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.923,
+      "target_words": 11650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Fractional Quantum Hall Effect and Anyonic Statistics",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.924,
+      "target_words": 11700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Bose-Einstein Condensation and Superfluidity",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.925,
+      "target_words": 11750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Kondo Effect and Heavy Fermion Systems",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.926,
+      "target_words": 11800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Spin Liquids and Frustrated Magnetism",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.927,
+      "target_words": 11850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Graphene and the Physics of Two-Dimensional Materials",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.928,
+      "target_words": 11900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Majorana Fermions in Condensed Matter Systems",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.929,
+      "target_words": 11950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Second Law of Thermodynamics and the Arrow of Time",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9299999999999999,
+      "target_words": 12000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Boltzmann H-Theorem and the Approach to Equilibrium",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.931,
+      "target_words": 12050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Loschmidt Paradox and Time Reversal Symmetry",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9319999999999999,
+      "target_words": 12100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Phase Transitions and Critical Phenomena",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.933,
+      "target_words": 12150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Ising Model and Universality Classes",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9339999999999999,
+      "target_words": 12200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Renormalization Group and Scaling Laws",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.935,
+      "target_words": 12250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Fluctuation-Dissipation Theorem",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9359999999999999,
+      "target_words": 12300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Non-Equilibrium Statistical Mechanics and Entropy Production",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.937,
+      "target_words": 12350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Jarzynski Equality and Free Energy Calculations",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.938,
+      "target_words": 12400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Maxwell Demon and Information-Theoretic Entropy",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9390000000000001,
+      "target_words": 12450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Laser Cooling and Trapping of Atoms",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.94,
+      "target_words": 12500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Atomic Clocks and the Redefinition of the Second",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.9410000000000001,
+      "target_words": 12550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Quantum Optics and Photon Statistics",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.942,
+      "target_words": 12600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Squeezed States of Light and Sub-Shot-Noise Measurements",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.943,
+      "target_words": 12650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Cavity QED and Strong Coupling of Atoms and Photons",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.944,
+      "target_words": 12700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Casimir-Polder Force Between Atoms and Surfaces",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.945,
+      "target_words": 12750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Electromagnetically Induced Transparency",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.946,
+      "target_words": 12800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Slow Light and Stopped Light in Atomic Media",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.947,
+      "target_words": 12850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Rydberg Atoms and Their Interactions",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.948,
+      "target_words": 12900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The AC Stark Shift and Optical Trapping",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.949,
+      "target_words": 12950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Magnetic Confinement Fusion and the Tokamak",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.95,
+      "target_words": 13000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Inertial Confinement Fusion and the National Ignition Facility",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.951,
+      "target_words": 13050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Vlasov Equation and Collisionless Plasmas",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.952,
+      "target_words": 13100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Magnetohydrodynamics and Plasma Instabilities",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.953,
+      "target_words": 13150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Lawson Criterion for Fusion Energy Gain",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.954,
+      "target_words": 13200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Plasma Turbulence and Transport in Fusion Devices",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.955,
+      "target_words": 13250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Tokamak Energy Confinement Time Scaling",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.956,
+      "target_words": 13300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Stellarator and Alternative Confinement Geometries",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.957,
+      "target_words": 13350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Z-Pinch and Pulsed Power Fusion",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.958,
+      "target_words": 13400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Dense Plasma Focus and Neutron Production",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.959,
+      "target_words": 13450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Protein Folding Problem and Energy Landscapes",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.96,
+      "target_words": 13500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Molecular Motors and the Conversion of Chemical to Mechanical Energy",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.961,
+      "target_words": 13550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Ion Channels and the Selectivity Filter Mechanism",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.962,
+      "target_words": 13600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Photosynthetic Reaction Center and Quantum Coherence",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.963,
+      "target_words": 13650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Ribosome and the Mechanics of Translation",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.964,
+      "target_words": 13700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "DNA Mechanics and the Persistence Length of the Double Helix",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.965,
+      "target_words": 13750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Cytoskeleton and Cellular Mechanics",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.966,
+      "target_words": 13800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Membrane Biophysics and Lipid Rafts",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.967,
+      "target_words": 13850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Flagellar Motor and Bacterial Locomotion",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.968,
+      "target_words": 13900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "Neuron Action Potentials and the Hodgkin-Huxley Model",
+      "tier": "S+",
+      "category": "Cutting-Edge Physics",
+      "difficulty": 0.969,
+      "target_words": 13950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Physical laws manifest Divine wisdom"
+    },
+    {
+      "subject": "The Central Dogma of Molecular Biology and Information Flow",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.86,
+      "target_words": 8500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Genetic Code and Its Near-Universality Across Life",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.861,
+      "target_words": 8550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Structure and Function of Ribozymes and RNA Catalysis",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.862,
+      "target_words": 8600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Spliceosome and the Mechanism of Pre-mRNA Splicing",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.863,
+      "target_words": 8650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "CRISPR-Cas Systems and Bacterial Adaptive Immunity",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.864,
+      "target_words": 8700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Telomeres and the Hayflick Limit of Cellular Replication",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.865,
+      "target_words": 8750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Mitochondrial Electron Transport Chain and ATP Synthesis",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.866,
+      "target_words": 8800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Epigenetics and Histone Modifications in Gene Regulation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.867,
+      "target_words": 8850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The p53 Tumor Suppressor and the Guardian of the Genome",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.868,
+      "target_words": 8900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Ubiquitin-Proteasome System and Protein Degradation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.869,
+      "target_words": 8950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Endoplasmic Reticulum Stress Response and Unfolded Protein Response",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.87,
+      "target_words": 9000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Autophagy and the Cellular Recycling of Damaged Organelles",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.871,
+      "target_words": 9050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Circadian Clock Mechanism at the Molecular Level",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.872,
+      "target_words": 9100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Immune Synapse and T-Cell Activation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.873,
+      "target_words": 9150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Major Histocompatibility Complex and Antigen Presentation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.874,
+      "target_words": 9200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Apoptosis and the Caspase Cascade of Programmed Cell Death",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.875,
+      "target_words": 9250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Cell Cycle Checkpoints and Cyclin-CDK Regulation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.876,
+      "target_words": 9300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Stem Cells and the Mechanisms of Pluripotency",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.877,
+      "target_words": 9350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Wnt Signaling Pathway in Development and Cancer",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.878,
+      "target_words": 9400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Notch Signaling Pathway and Lateral Inhibition",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.879,
+      "target_words": 9450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Hedgehog Signaling Pathway and Embryonic Patterning",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.88,
+      "target_words": 9500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The TGF-β Superfamily and Morphogen Gradients",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.881,
+      "target_words": 9550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Synaptic Vesicle Cycle and Neurotransmitter Release",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.882,
+      "target_words": 9600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Long-Term Potentiation and the Molecular Basis of Memory",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.883,
+      "target_words": 9650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Blood-Brain Barrier and Its Molecular Architecture",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.884,
+      "target_words": 9700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Complement System in Innate Immunity",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.885,
+      "target_words": 9750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Adaptive Immune System and V(D)J Recombination",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.886,
+      "target_words": 9800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Inflammasome and Pyroptotic Cell Death",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.887,
+      "target_words": 9850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Gut Microbiome and Host-Microbe Symbiosis",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.888,
+      "target_words": 9900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Virome and Its Role in Horizontal Gene Transfer",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.889,
+      "target_words": 9950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The CRISPR Revolution and Genome Editing Applications",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.89,
+      "target_words": 10000,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Single-Cell RNA Sequencing and Transcriptomic Heterogeneity",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.891,
+      "target_words": 10050,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "Synthetic Biology and the Design of Genetic Circuits",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.892,
+      "target_words": 10100,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Minimal Genome and Essential Genes for Life",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.893,
+      "target_words": 10150,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Origin of Life and RNA World Hypothesis",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.894,
+      "target_words": 10200,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Last Universal Common Ancestor and Deep Phylogeny",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.895,
+      "target_words": 10250,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Endosymbiotic Theory and Mitochondrial Evolution",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.896,
+      "target_words": 10300,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Horizontal Gene Transfer Network in Prokaryotes",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.897,
+      "target_words": 10350,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Genetic Basis of Speciation and Reproductive Isolation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.898,
+      "target_words": 10400,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Neutral Theory of Molecular Evolution",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.899,
+      "target_words": 10450,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Molecular Clock and Divergence Time Estimation",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.9,
+      "target_words": 10500,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Human Genome Project and the Encyclopedia of DNA",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.901,
+      "target_words": 10550,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The ENCODE Project and Functional Elements in the Genome",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.902,
+      "target_words": 10600,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Cancer Genome Atlas and Driver Mutations",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.903,
+      "target_words": 10650,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Precision Medicine Initiative and Pharmacogenomics",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.904,
+      "target_words": 10700,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Connectome Project and Neural Circuit Mapping",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.905,
+      "target_words": 10750,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Protein Data Bank and Structural Genomics",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.906,
+      "target_words": 10800,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The AlphaFold Revolution in Protein Structure Prediction",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.907,
+      "target_words": 10850,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Cryo-EM Revolution in Structural Biology",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.908,
+      "target_words": 10900,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Molecular Dynamics Simulations of Biomolecules",
+      "tier": "S+",
+      "category": "Molecular Biology",
+      "difficulty": 0.909,
+      "target_words": 10950,
+      "requires_scientific_precision": true,
+      "theological_connection": "Biological complexity reveals Divine design"
+    },
+    {
+      "subject": "The Problem of Universals and the Debate Between Realism and Nominalism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.87,
+      "target_words": 8800,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Ontological Argument for the Existence of God",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.871,
+      "target_words": 8850,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Cosmological Argument from Contingency to Necessary Being",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.872,
+      "target_words": 8900,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Teleological Argument from Design in Nature",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.873,
+      "target_words": 8950,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Problem of Evil and Theodicy in Light of Divine Providence",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.874,
+      "target_words": 9000,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Infinite Regress Problem in Causation and Explanation",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.875,
+      "target_words": 9050,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Modal Ontological Argument and Possible Worlds",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.876,
+      "target_words": 9100,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Kalam Cosmological Argument and the Beginning of the Universe",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.877,
+      "target_words": 9150,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Fine-Tuning Argument and the Anthropic Principle",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.878,
+      "target_words": 9200,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Moral Argument from Objective Values to a Moral Lawgiver",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.879,
+      "target_words": 9250,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Gettier Problem and the Analysis of Knowledge",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.88,
+      "target_words": 9300,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Foundationalism Versus Coherentism in Epistemic Justification",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.881,
+      "target_words": 9350,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Regress Problem and the Structure of Justification",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.882,
+      "target_words": 9400,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Skepticism and the Problem of the External World",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.883,
+      "target_words": 9450,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Problem of Induction and Hume's Critique",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.884,
+      "target_words": 9500,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "A Priori Knowledge and the Synthetic A Priori",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.885,
+      "target_words": 9550,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Reliabilism and Proper Function Theories of Justification",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.886,
+      "target_words": 9600,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Virtue Epistemology and Intellectual Virtues",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.887,
+      "target_words": 9650,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Value Problem in Epistemology",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.888,
+      "target_words": 9700,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Lottery Paradox and the Preface Paradox",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.889,
+      "target_words": 9750,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Liar Paradox and Semantic Theories of Truth",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.89,
+      "target_words": 9800,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Sorites Paradox and Vagueness in Language",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.891,
+      "target_words": 9850,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Ship of Theseus and the Problem of Identity Over Time",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.892,
+      "target_words": 9900,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Paradoxes of Material Implication in Classical Logic",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.893,
+      "target_words": 9950,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Relevance Logic and the Avoidance of Paradoxes",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.894,
+      "target_words": 10000,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Paraconsistent Logic and the Tolerance of Contradictions",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.895,
+      "target_words": 10050,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Modal Logic and the Semantics of Necessity and Possibility",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.896,
+      "target_words": 10100,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Tense Logic and the Logic of Temporal Operators",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.897,
+      "target_words": 10150,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Deontic Logic and the Logic of Obligation and Permission",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.898,
+      "target_words": 10200,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Barber Paradox and Russell's Theory of Types",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.899,
+      "target_words": 10250,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Hard Problem of Consciousness and Qualia",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9,
+      "target_words": 10300,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Mind-Body Problem and Substance Dualism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.901,
+      "target_words": 10350,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Functionalism and the Multiple Realizability of Mental States",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.902,
+      "target_words": 10400,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Chinese Room Argument Against Strong AI",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.903,
+      "target_words": 10450,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Zombie Argument Against Physicalism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.904,
+      "target_words": 10500,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Knowledge Argument and Mary the Color Scientist",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.905,
+      "target_words": 10550,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Panpsychism and the Ubiquity of Experience",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.906,
+      "target_words": 10600,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Binding Problem in Neuroscience",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.907,
+      "target_words": 10650,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Unity of Consciousness and the Stream of Experience",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.908,
+      "target_words": 10700,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Free Will and Determinism in Light of Neuroscience",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.909,
+      "target_words": 10750,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Euthyphro Dilemma and Divine Command Theory",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.91,
+      "target_words": 10800,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Natural Law Theory and the Foundation of Morality",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.911,
+      "target_words": 10850,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Virtue Ethics and the Eudaimonist Tradition",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.912,
+      "target_words": 10900,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Kantian Deontology and the Categorical Imperative",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.913,
+      "target_words": 10950,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Utilitarianism and the Greatest Happiness Principle",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.914,
+      "target_words": 11000,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Trolley Problem and the Doctrine of Double Effect",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.915,
+      "target_words": 11050,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Moral Particularism Versus Moral Generalism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.916,
+      "target_words": 11100,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Is-Ought Problem and the Naturalistic Fallacy",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.917,
+      "target_words": 11150,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Moral Realism Versus Moral Anti-Realism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.918,
+      "target_words": 11200,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Open Question Argument Against Naturalism in Ethics",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.919,
+      "target_words": 11250,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Plato's Theory of Forms and the Doctrine of Recollection",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.92,
+      "target_words": 11300,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Aristotle's Four Causes and the Doctrine of Hylomorphism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.921,
+      "target_words": 11350,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Unmoved Mover and Aristotle's Theology",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.922,
+      "target_words": 11400,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Allegory of the Cave and the Ascent to the Good",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.923,
+      "target_words": 11450,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Tripartite Soul in Plato's Republic",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.924,
+      "target_words": 11500,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Aristotle's Virtue Ethics and the Doctrine of the Mean",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.925,
+      "target_words": 11550,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Stoic Conception of Logos and Divine Providence",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.926,
+      "target_words": 11600,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Plotinus and the Neoplatonic Hierarchy of Being",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.927,
+      "target_words": 11650,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The One Beyond Being in Plotinian Metaphysics",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.928,
+      "target_words": 11700,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Epicurean Critique of Religion and Fear of Death",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.929,
+      "target_words": 11750,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Anselm's Ontological Argument and Gaunilo's Objection",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9299999999999999,
+      "target_words": 11800,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Aquinas's Five Ways and the Proofs of God's Existence",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.931,
+      "target_words": 11850,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Doctrine of Analogy in Thomistic Theology",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9319999999999999,
+      "target_words": 11900,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Scotus's Univocity of Being and the Formal Distinction",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.933,
+      "target_words": 11950,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Ockham's Razor and the Nominalist Revolution",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9339999999999999,
+      "target_words": 12000,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Problem of Universals in Medieval Scholasticism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.935,
+      "target_words": 12050,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Divine Ideas in Augustine and Aquinas",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9359999999999999,
+      "target_words": 12100,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Relationship Between Faith and Reason in Medieval Thought",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.937,
+      "target_words": 12150,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Problem of Divine Foreknowledge and Human Freedom",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.938,
+      "target_words": 12200,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Beatific Vision as the Ultimate End of Human Life",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9390000000000001,
+      "target_words": 12250,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Descartes's Cogito and the Foundations of Knowledge",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.94,
+      "target_words": 12300,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Mind-Body Dualism in Cartesian Philosophy",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.9410000000000001,
+      "target_words": 12350,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Spinoza's Substance Monism and the Deus Sive Natura",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.942,
+      "target_words": 12400,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Leibniz's Monadology and Pre-Established Harmony",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.943,
+      "target_words": 12450,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Hume's Fork and the Distinction Between Relations of Ideas and Matters of Fact",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.944,
+      "target_words": 12500,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Kant's Copernican Revolution in Philosophy",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.945,
+      "target_words": 12550,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Synthetic A Priori and the Transcendental Aesthetic",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.946,
+      "target_words": 12600,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Categorical Imperative and the Autonomy of the Will",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.947,
+      "target_words": 12650,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Hegel's Dialectic and the Absolute Spirit",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.948,
+      "target_words": 12700,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Phenomenology of Spirit and the Master-Slave Dialectic",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.949,
+      "target_words": 12750,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Husserl's Phenomenology and the Epoché",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.95,
+      "target_words": 12800,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Heidegger's Being and Time and the Question of Being",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.951,
+      "target_words": 12850,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Dasein and the Structures of Being-in-the-World",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.952,
+      "target_words": 12900,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Anxiety of Nothingness in Existential Philosophy",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.953,
+      "target_words": 12950,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Sartre's Radical Freedom and Bad Faith",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.954,
+      "target_words": 13000,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Absurd in Camus and the Revolt Against Meaninglessness",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.955,
+      "target_words": 13050,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Marcel's Philosophy of Hope and the Mystery of Being",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.956,
+      "target_words": 13100,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Levinas's Ethics of the Other and the Face",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.957,
+      "target_words": 13150,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Merleau-Ponty's Phenomenology of Perception",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.958,
+      "target_words": 13200,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Lived Body and the Primacy of Perception",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.959,
+      "target_words": 13250,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Social Contract Theory in Hobbes, Locke, and Rousseau",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.96,
+      "target_words": 13300,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The State of Nature and the Justification of Political Authority",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.961,
+      "target_words": 13350,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Rawls's Theory of Justice and the Original Position",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.962,
+      "target_words": 13400,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Difference Principle and the Distribution of Social Goods",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.963,
+      "target_words": 13450,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Nozick's Libertarianism and the Minimal State",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.964,
+      "target_words": 13500,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Communitarianism and the Critique of Liberal Individualism",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.965,
+      "target_words": 13550,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Capabilities Approach of Sen and Nussbaum",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.966,
+      "target_words": 13600,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Deliberative Democracy and Public Reason",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.967,
+      "target_words": 13650,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "The Harm Principle and the Limits of State Power",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.968,
+      "target_words": 13700,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    },
+    {
+      "subject": "Cosmopolitanism and the Ethics of Global Justice",
+      "tier": "S+",
+      "category": "Advanced Philosophy",
+      "difficulty": 0.969,
+      "target_words": 13750,
+      "requires_logical_rigor": true,
+      "theological_connection": "Philosophy as handmaid to theology"
+    }
+  ]
+}

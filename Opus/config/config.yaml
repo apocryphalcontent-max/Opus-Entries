@@ -1,0 +1,218 @@
+# OPUS MAXIMUS CONFIGURATION
+# Complete settings for hyperquality theological generation
+
+# =============================================================================
+# MODEL SETTINGS (16GB VRAM Optimized)
+# =============================================================================
+model:
+  path: "models/nous-hermes-2-mixtral.gguf"  # Path to your GGUF model
+  n_ctx: 16384                               # Context window (16k for 16GB VRAM)
+  n_batch: 1024                              # Batch size (DDR5 optimized)
+  n_gpu_layers: -1                           # -1 = all layers on GPU
+  n_threads: 16                              # Match your CPU core count
+  temperature: 0.7
+  top_p: 0.9
+  top_k: 40
+  repeat_penalty: 1.1
+
+# =============================================================================
+# GENERATION SETTINGS
+# =============================================================================
+generation:
+  min_total_words: 10000
+  max_total_words: 15000
+  max_section_attempts: 3
+  max_expansion_attempts: 2
+  
+  # Section word counts
+  sections:
+    strategic_role: [1200, 1800]
+    classification: [1200, 1800]
+    primary_works: [1500, 2500]
+    patristic_mind: [1800, 2500]
+    symphony_clashes: [2000, 3000]
+    orthodox_affirmation: [2000, 2500]
+
+# =============================================================================
+# VALIDATION THRESHOLDS
+# =============================================================================
+validation:
+  quality_threshold: 0.85
+  uniqueness_threshold: 0.75
+  
+  # Citation requirements
+  min_patristic_citations: 40
+  min_biblical_references: 60
+  min_greek_terms: 25
+  
+  # Style requirements (ALPHA)
+  min_avg_word_length: 5.2
+  max_simple_word_ratio: 0.35
+  
+  # Sentence structure (BETA)
+  min_avg_sentence_length: 20
+  max_avg_sentence_length: 40
+  target_avg_sentence_length: 28
+  
+  # Theological depth (GAMMA)
+  min_patristic_per_500_words: 2
+  min_biblical_per_500_words: 3
+  min_theological_terms_per_500_words: 3
+  
+  # Required structures
+  min_not_but_structures: 8
+  min_doxological_sentence_words: 150
+
+# =============================================================================
+# CACHING SETTINGS (32GB RAM Optimized)
+# =============================================================================
+caching:
+  enable: true
+  l1_cache_size: 5000              # Hot RAM cache (5x standard)
+  l2_cache_size: 50000             # Warm RAM cache (5x standard)
+  l3_disk_cache: true              # Persistent disk cache
+  compress_l3: true                # Use zlib compression
+  
+# =============================================================================
+# PERFORMANCE SETTINGS
+# =============================================================================
+performance:
+  vram_reservation_mb: 512         # Reserve VRAM for FAISS
+  max_retries: 5                   # Error recovery attempts
+  backoff_factor: 1.5              # Exponential backoff
+  max_wait_time: 5.0               # Max wait between retries (fast hardware)
+  
+  # Parallel processing
+  enable_async_sections: true
+  max_parallel_validations: 8
+  
+# =============================================================================
+# PATHS
+# =============================================================================
+paths:
+  output_dir: "GENERATED_ENTRIES_MASTER"
+  golden_dir: "OPUS_MAXIMUS_INDIVIDUALIZED/Enhancement_Corpus"
+  old_engine_dir: "Old_Engine"
+  old_scripts_dir: "Old_Scripts"
+  checkpoint_dir: ".checkpoints"
+  cache_dir: ".cache"
+  logs_dir: "logs"
+
+# =============================================================================
+# SUBJECT PROFILES (Adaptive Rulesets)
+# =============================================================================
+subject_profiles:
+  systematic_theology:
+    emphasis: [conceptual_precision, patristic_density, logical_rigor]
+    boost_rules: [GAMMA_1, DELTA_1]  # Citations and capitalization
+    
+  hagiography:
+    emphasis: [narrative_arc, sanctity_portrayal, human_drama]
+    relax: [abstract_terminology_density]
+    boost_rules: [BETA_3, GAMMA_2]  # Flow and storytelling
+    
+  liturgical_theology:
+    emphasis: [mystery_language, participatory_tone, sacramental_realism]
+    mandatory_terms: [Liturgy, mysteries, altar, epiklesis]
+    boost_rules: [DELTA_3]  # Eucharistic culmination
+    
+  ascetical_theology:
+    emphasis: [practical_guidance, hesychastic_precision, nepsis]
+    patristic_focus: [Desert Fathers, Evagrius, Climacus]
+
+# =============================================================================
+# THEOLOGICAL SAFEGUARDS
+# =============================================================================
+theological:
+  # Ecumenical councils to enforce
+  enforce_councils:
+    - Nicaea I (325)
+    - Constantinople I (381)
+    - Ephesus (431)
+    - Chalcedon (451)
+    - Constantinople II (553)
+    - Constantinople III (680-681)
+    - Nicaea II (787)
+  
+  # Heresies to detect
+  detect_heresies:
+    - Arianism
+    - Nestorianism
+    - Monophysitism
+    - Pelagianism
+    - Semi-Pelagianism
+    - Modalism
+    - Subordinationism
+    - Docetism
+    - Gnosticism
+    - Iconoclasm
+    - Monothelitism
+  
+  # Required affirmations
+  require_affirmations:
+    - Nicene_Creed_compliance
+    - Trinity_affirmation
+    - Chalcedonian_precision
+    - Theosis_as_telos
+    - Real_Presence_Eucharist
+    - Apophatic_cataphatic_balance
+
+# =============================================================================
+# PATRISTIC CORPUS (Citation Verification)
+# =============================================================================
+patristic:
+  canonical_fathers:
+    - Saint Athanasius
+    - Saint Basil the Great
+    - Saint Gregory of Nazianzus
+    - Saint Gregory of Nyssa
+    - Saint John Chrysostom
+    - Saint Maximus the Confessor
+    - Saint John of Damascus
+    - Saint Cyril of Alexandria
+    - Saint Irenaeus
+    - Saint Gregory Palamas
+  
+  verify_citations: true
+  allow_minor_works: true
+  require_work_titles: true
+
+# =============================================================================
+# LITURGICAL CALENDAR (Future Enhancement)
+# =============================================================================
+liturgical:
+  enable_calendar_alignment: false  # Not yet implemented
+  current_season: "Ordinary Time"
+  upcoming_feasts: []
+
+# =============================================================================
+# OUTPUT FORMATS
+# =============================================================================
+output:
+  formats: [markdown, json]
+  markdown:
+    include_yaml_frontmatter: true
+    four_space_indentation: true
+    max_line_length: 95
+  json:
+    pretty_print: true
+    include_validation_report: true
+    include_metrics: true
+
+# =============================================================================
+# LOGGING
+# =============================================================================
+logging:
+  level: INFO                      # DEBUG, INFO, WARNING, ERROR
+  console_output: true
+  file_output: true
+  rich_formatting: true
+  
+# =============================================================================
+# ADVANCED FEATURES (Future)
+# =============================================================================
+advanced:
+  enable_ensemble: false           # Multi-model synthesis
+  enable_human_review: false       # Human-in-the-loop
+  enable_iconographic_check: false # Icon theology coherence
+  enable_hymnographic_rhythm: false # Prosodic analysis

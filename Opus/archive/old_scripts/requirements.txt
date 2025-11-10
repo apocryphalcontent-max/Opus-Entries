@@ -1,0 +1,157 @@
+OPUS MAXIMUS MASTER GENERATOR - GPU-Native Production Dependencies
+
+Install with: pip install -r requirements.txt
+
+GPU-ACCELERATED ARCHITECTURE: All compute on local GPU (4090)
+
+Last updated: 2025-11-07
+
+============================================================================
+
+CORE DEPENDENCIES (Required for GPU-Native Operation)
+
+============================================================================
+
+Embeddings and ML (GPU-Accelerated)
+
+sentence-transformers==2.2.2    # Semantic search via BERT embeddings (GPU)
+torch==2.0.1+cu118             # PyTorch with CUDA 11.8 support
+transformers==4.30.2            # Required by sentence-transformers
+numpy==1.24.3                   # Array operations
+
+Vector Database (GPU-Native)
+
+chromadb==0.4.22               # GPU-native persistent vector store
+faiss-gpu==1.7.4               # GPU-accelerated vector similarity search
+
+Local LLM Inference (CRITICAL - GPU Offload)
+
+llama-cpp-python==0.2.27       # Local GGUF model inference with CUDA
+
+INSTALLATION NOTE: Install with CUDA support:
+
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
+
+Windows: Use pre-built wheel or follow llama-cpp-python CUDA install guide
+
+Agentic Framework
+
+langgraph==0.0.19              # State machine for self-correction loops
+langchain==0.1.0               # Required by langgraph
+
+Data Ingestion & Processing
+
+pydantic==2.5.2                 # Data validation with type hints
+pydantic-settings==2.1.0        # YAML config file support
+orjson==3.9.10                  # Fastest JSON library (Rust-based)
+pdfplumber==0.11.0              # NEW: For PDF file ingestion
+nltk==3.8.1                     # NEW: For semantic chunking (sent_tokenize)
+pyyaml==6.0.1                   # YAML parsing for config
+
+Text Processing
+
+rapidfuzz==3.5.2               # Fast fuzzy string matching (Levenshtein distance)
+
+Progress and Display
+
+rich==13.7.0                    # Beautiful terminal output
+tqdm==4.66.1                    # Progress bars
+streamlit==1.29.0              # Web dashboard for monitoring
+
+Caching
+
+diskcache==5.6.3               # Persistent disk-based cache
+
+Monitoring & Telemetry
+
+psutil==5.9.6                   # System resource monitoring (CPU, RAM, VRAM)
+python-json-logger==2.0.7       # Structured JSON logging
+pandas==2.1.4                   # Data analysis for telemetry
+matplotlib==3.8.2               # Visualization for benchmarks
+plotly==5.18.0                  # Interactive dashboard charts
+
+============================================================================
+
+INSTALLATION NOTES - GPU-NATIVE ARCHITECTURE
+
+============================================================================
+
+STEP 1: Install PyTorch with CUDA support FIRST
+
+pip install torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+
+STEP 2: Install llama-cpp-python with CUDA support (CRITICAL)
+
+Windows:
+
+Option A: Pre-built wheel (recommended):
+
+pip install llama-cpp-python --prefer-binary --extra-index-url=https://jllllll.github.io/llama-cpp-python-cuBLAS-wheels/AVX2/cu118
+
+Option B: Build from source:
+
+set CMAKE_ARGS=-DLLAMA_CUBLAS=on
+
+pip install llama-cpp-python==0.2.27 --no-cache-dir --force-reinstall
+
+Linux:
+
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python==0.2.27
+
+STEP 3: Install remaining dependencies
+
+pip install -r requirements.txt
+
+STEP 4: Download a GGUF model
+
+Recommended for RTX 4090 (24GB VRAM):
+
+- Qwen2.5-Coder-32B-Instruct Q8 GGUF (~34GB, fits with quantization)
+
+- Qwen2.5-Coder-14B-Instruct Q8 GGUF (~15GB, safer)
+
+- Any Llama 3.1 70B Q4 GGUF (~40GB, might need offloading)
+
+Download from Hugging Face:
+
+https://huggingface.co/models?search=gguf
+
+STEP 5: Verify GPU installation
+
+python -c "import torch; print(f'CUDA Available: {torch.cuda.is_available()}')"
+
+python -c "import faiss; print(f'FAISS GPU: {hasattr(faiss, "GpuIndexFlatIP")}')"
+
+python -c "from llama_cpp import Llama; print('llama-cpp-python OK')"
+
+============================================================================
+
+SYSTEM REQUIREMENTS - GPU-NATIVE
+
+============================================================================
+
+REQUIRED:
+
+- Python: 3.9, 3.10, 3.11 (tested)
+
+- NVIDIA GPU: RTX 3090, RTX 4090, or better (16GB+ VRAM)
+
+- CUDA: 11.8 or 12.x
+
+- RAM: 32GB system RAM recommended
+
+- Disk: 50GB+ for models and vector database
+
+TESTED ON:
+
+- RTX 4090 (24GB VRAM) - OPTIMAL
+
+- Windows 11 with CUDA 11.8
+
+- Ubuntu 22.04 with CUDA 12.1
+
+NOTES:
+
+- CPU fallback available but NOT recommended (100x slower)
+
+- All components designed for GPU: LLM, embeddings, FAISS, ChromaDB
