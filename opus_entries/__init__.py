@@ -7,6 +7,8 @@ __version__ = "0.1.0"
 
 from .generator import EntryGenerator
 from .validator import EntryValidator
+from .refiner import EntryRefiner
+from .citation_checker import CitationChecker
 from .models import Entry, QualityTier
 
-__all__ = ["EntryGenerator", "EntryValidator", "Entry", "QualityTier"]
+__all__ = ["EntryGenerator", "EntryValidator", "EntryRefiner", "CitationChecker", "Entry", "QualityTier"]

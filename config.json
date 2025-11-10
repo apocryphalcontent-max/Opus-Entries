@@ -6,37 +6,37 @@
   },
   "entry": {
     "min_word_count": 11000,
-    "max_word_count": 14000,
+    "celestial_mandate": true,
     "sections": [
       {
         "name": "Introduction",
-        "min_words": 1500,
-        "max_words": 2000
+        "min_words": 1750,
+        "optimal_zone_max": 2500
       },
       {
         "name": "The Patristic Mind",
-        "min_words": 2000,
-        "max_words": 2500
+        "min_words": 2250,
+        "optimal_zone_max": 3000
       },
       {
         "name": "Symphony of Clashes",
-        "min_words": 2000,
-        "max_words": 2500
+        "min_words": 2350,
+        "optimal_zone_max": 3200
       },
       {
         "name": "Orthodox Affirmation",
-        "min_words": 2000,
-        "max_words": 2500
+        "min_words": 2250,
+        "optimal_zone_max": 3000
       },
       {
         "name": "Synthesis",
-        "min_words": 1500,
-        "max_words": 2000
+        "min_words": 1900,
+        "optimal_zone_max": 2500
       },
       {
         "name": "Conclusion",
-        "min_words": 1500,
-        "max_words": 2000
+        "min_words": 1800,
+        "optimal_zone_max": 2400
       }
     ]
   },
@@ -74,5 +74,9 @@
       "section_balance": 0.15,
       "orthodox_perspective": 0.1
     }
+  },
+  "refinement": {
+    "max_attempts": 3,
+    "celestial_threshold": 95
   }
 }

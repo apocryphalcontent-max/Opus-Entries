@@ -1,116 +1,86 @@
 """
-Command-line interface for Opus-Entries
+Command-line interface for Opus-Entries with CELESTIAL-tier mandate
 """
 import argparse
-import os
 import sys
 from pathlib import Path
 
 from .generator import EntryGenerator
 from .validator import EntryValidator
+from .refiner import EntryRefiner
+from .citation_checker import CitationChecker
 from .config import Config
+
+
+def generate_command(args):
+    """Handle the generate command with CELESTIAL mandate"""
+    # Initialize components
+    config = Config(args.config) if args.config else Config()
+    generator = EntryGenerator(config=config)
+    validator = EntryValidator(config=config)
+    refiner = EntryRefiner(config=config)
+    citation_checker = CitationChecker()
+    
+    print(f"Generating entry on: {args.topic}")
+    print(f"Model: {args.model}")
+    print(f"CELESTIAL mandate: {args.celestial_only}")
+    print("=" * 80)
+    
+    # Phase 1: Generate
+    print("\nPhase 1: Generating entry...")
+    entry = generator.generate(args.topic, model=args.model)
+    print(f"  Generated {entry.total_word_count} words across {len(entry.sections)} sections")
+    
+    # Phase 2: Validate
+    print("\nPhase 2: Validating...")
+    result = validator.validate(entry)
+    print(f"  Score: {result.score:.2f}/100")
+    print(f"  Tier: {result.quality_tier.value}")
+    
+    # Phase 3: Refinement if needed
+    if args.celestial_only and result.score < 95:
+        print(f"\nPhase 3: Iterative refinement to CELESTIAL tier...")
+        entry = refiner.refine_to_celestial(entry, model=args.model, max_attempts=args.max_refinement_attempts)
+        result = validator.validate(entry)
+        print(f"  Final score: {result.score:.2f}/100 ({result.quality_tier.value})")
+    
+    # Save
+    if args.output:
+        output_path = Path(args.output)
+    else:
+        output_dir = Path("output")
+        output_dir.mkdir(exist_ok=True)
+        safe_topic = args.topic.replace(' ', '_').replace('/', '_')
+        output_path = output_dir / f"{safe_topic}.md"
+    
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(entry.to_markdown())
+    
+    print(f"\n✓ Entry saved to: {output_path}")
 
 
 def main():
     """Main CLI entry point"""
-    parser = argparse.ArgumentParser(
-        description="Opus-Entries: Generate comprehensive Orthodox Christian perspective entries"
-    )
+    parser = argparse.ArgumentParser(description="Opus-Entries: Orthodox Christian Entry Generator")
+    subparsers = parser.add_subparsers(dest='command')
     
-    subparsers = parser.add_subparsers(dest="command", help="Available commands")
-    
-    # Generate command
-    generate_parser = subparsers.add_parser("generate", help="Generate a new entry")
-    generate_parser.add_argument("--topic", required=True, help="Topic for the entry")
-    generate_parser.add_argument("--model", help="LLM model to use (default: from config)")
-    generate_parser.add_argument("--output", help="Output file path (default: output/{topic}.md)")
-    generate_parser.add_argument("--config", help="Path to config file (default: config.json)")
-    
-    # Validate command
-    validate_parser = subparsers.add_parser("validate", help="Validate an existing entry")
-    validate_parser.add_argument("--input", required=True, help="Path to entry file")
-    validate_parser.add_argument("--config", help="Path to config file (default: config.json)")
+    generate_parser = subparsers.add_parser('generate')
+    generate_parser.add_argument('--topic', required=True)
+    generate_parser.add_argument('--model', default='llama2')
+    generate_parser.add_argument('--output', '-o')
+    generate_parser.add_argument('--config')
+    generate_parser.add_argument('--celestial-only', action='store_true', default=True)
+    generate_parser.add_argument('--no-celestial-mandate', dest='celestial_only', action='store_false')
+    generate_parser.add_argument('--max-refinement-attempts', type=int, default=3)
     
     args = parser.parse_args()
     
-    if args.command == "generate":
-        generate_entry(args)
-    elif args.command == "validate":
-        validate_entry(args)
+    if args.command == 'generate':
+        generate_command(args)
     else:
         parser.print_help()
-        sys.exit(1)
 
 
-def generate_entry(args):
-    """Generate a new entry"""
-    # Load configuration
-    config_path = args.config or "config.json"
-    config = Config(config_path)
-    
-    # Initialize generator and validator
-    generator = EntryGenerator(config)
-    validator = EntryValidator(config)
-    
-    print(f"Generating entry on topic: {args.topic}")
-    print("This may take several minutes depending on the LLM model...")
-    
-    # Check LLM connection
-    if not generator.llm_client.check_connection():
-        print("\nWarning: LLM service not available. Using fallback mode.")
-        print("For full functionality, ensure Ollama or compatible service is running.")
-        print()
-    
-    # Generate entry
-    entry = generator.generate(args.topic, args.model)
-    
-    print(f"\nEntry generated with {entry.total_word_count} words")
-    
-    # Validate entry
-    print("Validating entry...")
-    validation_result = validator.validate(entry)
-    
-    print(f"\nValidation Results:")
-    print(f"  Overall Score: {validation_result.score:.2f}/100")
-    print(f"  Quality Tier: {validation_result.quality_tier.value}")
-    print(f"\nComponent Scores:")
-    print(f"  Word Count: {validation_result.word_count_score:.2f}/100")
-    print(f"  Theological Depth: {validation_result.theological_depth_score:.2f}/100")
-    print(f"  Coherence: {validation_result.coherence_score:.2f}/100")
-    print(f"  Section Balance: {validation_result.section_balance_score:.2f}/100")
-    print(f"  Orthodox Perspective: {validation_result.orthodox_perspective_score:.2f}/100")
-    
-    if validation_result.feedback:
-        print(f"\nFeedback:")
-        for feedback_item in validation_result.feedback:
-            print(f"  - {feedback_item}")
-    
-    # Save entry
-    if args.output:
-        output_path = args.output
-    else:
-        # Create output directory if it doesn't exist
-        output_dir = Path("output")
-        output_dir.mkdir(exist_ok=True)
-        
-        # Sanitize topic for filename
-        safe_topic = "".join(c if c.isalnum() or c in (' ', '-', '_') else '_' for c in args.topic)
-        safe_topic = safe_topic.replace(' ', '_')
-        output_path = output_dir / f"{safe_topic}.md"
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(entry.to_markdown())
-    
-    print(f"\nEntry saved to: {output_path}")
-
-
-def validate_entry(args):
-    """Validate an existing entry"""
-    print(f"Validating entry from: {args.input}")
-    print("Note: This is a placeholder. Full validation requires parsing the entry file.")
-    # This would require implementing entry parsing from markdown
-    # For now, it's a placeholder for the interface
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

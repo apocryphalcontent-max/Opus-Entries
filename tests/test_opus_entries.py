@@ -42,11 +42,13 @@ def test_config():
     
     assert config.get("llm.default_model") == "llama2"
     assert config.get("entry.min_word_count") == 11000
-    assert config.get("entry.max_word_count") == 14000
+    assert config.get("entry.celestial_mandate") == True
     
     sections = config.get_section_configs()
     assert len(sections) == 6
     assert sections[0]["name"] == "Introduction"
+    assert sections[0]["min_words"] == 1750
+    assert sections[0]["optimal_zone_max"] == 2500
     assert sections[1]["name"] == "The Patristic Mind"
     
     print("✓ Config test passed")

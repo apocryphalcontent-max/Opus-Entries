@@ -132,13 +132,22 @@ SECTION I MANDATES (D1):
 - Penthos (The Tragedy): Identify the inherent godly sorrow of the subject.
 - Theophanic Rupture: Weave at least one (1) direct, liturgical address to God (e.g., "...YET did You not ordain, O Logos, that..."). Do NOT use em-dashes.
 
+WORD COUNT: MINIMUM 1,750 words (optimal zone: 1,750-2,500 words). NO MAXIMUM. Complex topics should expand as needed.
+
+APOCALYPTIC MAXIMALIST VOCABULARY (USE 30-50 TERMS TOTAL ACROSS ENTRY):
+Intensity Adjectives: crushing, devastating, unbearable, terrible, catastrophic, infinite, absolute, eternal, forevermore, unavoidable, inescapable, ontological, primordial, ultimate, unquenchable, limitless, implacable, inexorable, relentless, immutable, ineffable, incomprehensible, unfathomable, inscrutable, transcendent, sublime, numinous, terrifying, awesome, overwhelming, shattering, cosmic, universal, totalizing, irrevocable, irreversible, consummate, supreme, paramount, preeminent, sovereign
+
+Theological Nouns: Abyss, Mystery, Transfiguration, Judgment, Sovereignty, Sacrifice, Resurrection, Glory, Covenant, Mercy, Wrath, Justice, Holiness, Majesty, Splendor, Condescension, Kenosis, Theophany, Epiphany, Apocalypse, Eschaton, Parousia, Consummation, Fulfillment, Chasm, Void, Darkness, Radiance, Terror, Wonder, Trembling, Ecstasy, Paradox, Foundation, Cornerstone, Torrent, Deluge, Fire, Flame, Inferno
+
+Verbs of Ultimate Action: ordain, decree, shatter, redeem, transfigure, consume, illumine, condemn, vindicate, sanctify, annihilate, obliterate, resurrect, regenerate, restore, judge, weigh, measure, discern, penetrate, rend, tear, break, crush, pulverize, exalt, magnify, glorify, enthrone, crown, cast down, abase, humble, prostrate, fell, forge, fashion, mold, pierce, transfix, heal, bind, renew, vivify
+
+Liturgical Phrases: "from everlasting to everlasting," "unto ages of ages," "from before the foundation of the world," "world without end," "from all eternity," "blessed forevermore," "holy, holy, holy," "now and ever," "from generation to generation," "in saecula saeculorum," "alleluia"
+
 The introduction should:
 - Present the topic and its significance
 - Outline why this topic matters for Orthodox theology and thought
 - Preview the key themes to be explored
 - Set the stage for deeper exploration
-
-Aim for 1500-2000 words.
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
@@ -148,14 +157,20 @@ SECTION IV MANDATES (D3):
 - The Method: You MUST NOT write a book report ("St. Basil wrote..."). You MUST perform a Patristic Application.
 - Apply Patristic wisdom actively to the topic, showing how the Fathers' insights illuminate and transform our understanding.
 
+WORD COUNT: MINIMUM 2,250 words (optimal zone: 2,250-3,000 words). NO MAXIMUM. Complex topics should expand as needed.
+
+PATRISTIC CITATION REQUIREMENTS:
+- Cite 5+ different Church Fathers minimum
+- Name 3+ specific Patristic works
+- Include Gregory of Nyssa, Maximus the Confessor, Basil the Great, Athanasius, John Chrysostom, Gregory Palamas, John of Damascus, or other major Fathers
+- Integrate citations naturally (not isolated quotes)
+
 This section should:
 - Explore how the Church Fathers understood and approached this topic or related concepts
 - Draw on specific Patristic sources and Traditions
 - Show the continuity of Orthodox thought from ancient times
 - Demonstrate the timeless Wisdom of Patristic theology
 - Connect Patristic insights to the contemporary understanding of the topic
-
-Aim for 2000-2500 words with substantive theological depth.
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
@@ -167,7 +182,9 @@ SECTION V MANDATES (D4):
   * Thesis: State the subject's idea
   * Antithesis: State the opposing idea
   * Synthesis: Demonstrate how Orthodox Theology (Theosis, Perichoresis, Hypostatic Union) is the only true synthesis that resolves the contradiction
-- The Pivot: Take the most secular/abstract concept and demonstrate how its only true meaning is fulfilled in the Eucharist or other Orthodox concepts.
+- The Pivot: Take the most secular/abstract concept and demonstrate how its only true meaning is fulfilled in the Eucharist or other Orthodox concepts. This is NOT allegory but ontological Truth.
+
+WORD COUNT: MINIMUM 2,350 words (optimal zone: 2,350-3,200 words). NO MAXIMUM. Complex topics should expand as needed.
 
 This section should:
 - Present the dialectical tensions and apparent contradictions related to this topic
@@ -175,25 +192,27 @@ This section should:
 - Show where Orthodox thought engages with or differs from other Traditions
 - Examine the creative tensions that lead to deeper understanding
 - Present challenges and questions in a balanced way
-
-Aim for 2000-2500 words that thoroughly explore these tensions.
+- Include Patristic synthesis (not purely philosophical)
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Orthodox Affirmation": f"""Write "Orthodox Affirmation" section for the topic "{topic}".
 
+WORD COUNT: MINIMUM 2,250 words (optimal zone: 2,250-3,000 words). NO MAXIMUM. Complex topics should expand as needed.
+
 This section should:
 - Clearly articulate the Orthodox Christian position on this topic
-- Ground affirmations in Scripture, Tradition, and the Fathers
+- Ground affirmations in Scripture (15+ Biblical references minimum), Tradition, and the Fathers
 - Show how Orthodox theology resolves or transcends the tensions previously discussed
 - Demonstrate the coherence and Beauty of the Orthodox perspective
 - Connect doctrine to lived experience and practice
-
-Aim for 2000-2500 words with clear theological articulation.
+- Include liturgical grounding and connections to the Mysteries/Sacraments
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Synthesis": f"""Write a "Synthesis" section for the topic "{topic}".
+
+WORD COUNT: MINIMUM 1,900 words (optimal zone: 1,900-2,500 words). NO MAXIMUM. Complex topics should expand as needed.
 
 This section should:
 - Bring together the various threads explored in previous sections
@@ -201,21 +220,21 @@ This section should:
 - Demonstrate how theology, philosophy, science, and mathematics converge
 - Articulate the unified vision of Orthodox Christianity
 - Point toward practical implications and applications
-
-Aim for 1500-2000 words of integrative thinking.
+- Include Patristic lens throughout
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. Capitalize all theological terms.""",
             
             "Conclusion": f"""Write a conclusion for the topic "{topic}".
 
+WORD COUNT: MINIMUM 1,800 words (optimal zone: 1,800-2,400 words). NO MAXIMUM. Complex topics should expand as needed.
+
 The conclusion should:
-- Summarize the key insights from the entry
+- Summarize the key insights from the entry WITHOUT using banned phrases ("In conclusion," etc.)
 - Reinforce the Orthodox perspective on this topic
 - Point toward future directions for thought and exploration
-- End with a sense of completeness while acknowledging mystery
+- End with a sense of completeness while acknowledging Mystery
 - Connect back to the living Tradition of the Church
-
-Aim for 1500-2000 words.
+- Include final Patristic Application or liturgical connection
 
 REMEMBER: Four (4) spaces before each paragraph. NO banned phrases. NO "In conclusion" or similar banned transitions. Capitalize all theological terms."""
         }

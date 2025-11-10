@@ -71,25 +71,19 @@ class EntryValidator:
         )
     
     def _calculate_word_count_score(self, entry: Entry) -> float:
-        """Calculate score based on word count (target: 11,000-14,000)"""
+        """Calculate score based on word count (minimum: 11,000 words, no maximum)"""
         min_words = self.config.get("entry.min_word_count", 11000)
-        max_words = self.config.get("entry.max_word_count", 14000)
-        ideal_words = (min_words + max_words) / 2
         
         total_words = entry.total_word_count
         
-        if min_words <= total_words <= max_words:
-            # Perfect range - calculate how close to ideal
-            deviation = abs(total_words - ideal_words) / ideal_words
-            return max(85, 100 - (deviation * 100))
-        elif total_words < min_words:
-            # Too short
-            ratio = total_words / min_words
-            return max(0, ratio * 85)
+        if total_words >= min_words:
+            # Meets minimum - full score
+            # No penalty for going over (complex topics require more words)
+            return 100.0
         else:
-            # Too long
-            excess_ratio = (total_words - max_words) / max_words
-            return max(0, 85 - (excess_ratio * 100))
+            # Below minimum - proportional penalty
+            ratio = total_words / min_words
+            return max(0, ratio * 100)
     
     def _calculate_theological_depth_score(self, entry: Entry) -> float:
         """Calculate score based on theological depth"""
@@ -139,7 +133,7 @@ class EntryValidator:
         return max(0, min(100, (section_score + content_score) / 2))
     
     def _calculate_section_balance_score(self, entry: Entry) -> float:
-        """Calculate score based on balance between sections"""
+        """Calculate score based on balance between sections (minimums only, no maximums)"""
         if not entry.sections:
             return 0
         
@@ -150,16 +144,19 @@ class EntryValidator:
             if section.name in section_configs:
                 config = section_configs[section.name]
                 min_words = config.get("min_words", 1000)
-                max_words = config.get("max_words", 3000)
+                optimal_zone_max = config.get("optimal_zone_max", 3000)
                 
-                if min_words <= section.word_count <= max_words:
-                    balance_scores.append(100)
-                elif section.word_count < min_words:
+                if section.word_count >= min_words:
+                    # Meets minimum - calculate bonus for being in optimal zone
+                    if section.word_count <= optimal_zone_max:
+                        balance_scores.append(100)  # In optimal zone
+                    else:
+                        # Above optimal zone but NOT penalized (complex topics need space)
+                        balance_scores.append(95)  # Slight preference for optimal zone
+                else:
+                    # Below minimum - proportional penalty
                     ratio = section.word_count / min_words
                     balance_scores.append(ratio * 100)
-                else:
-                    excess = (section.word_count - max_words) / max_words
-                    balance_scores.append(max(50, 100 - (excess * 50)))
         
         return sum(balance_scores) / len(balance_scores) if balance_scores else 70
     
@@ -207,32 +204,40 @@ class EntryValidator:
         feedback = []
         
         min_words = self.config.get("entry.min_word_count", 11000)
-        max_words = self.config.get("entry.max_word_count", 14000)
+        total_score = (
+            word_count_score * 0.2 +
+            theological_depth_score * 0.3 +
+            coherence_score * 0.25 +
+            section_balance_score * 0.15 +
+            orthodox_perspective_score * 0.1
+        )
+        
+        # CELESTIAL mandate check
+        if total_score < 95:
+            feedback.append(f"Entry scored {total_score:.1f}/100. CELESTIAL tier (95+) required. Iterative refinement needed.")
         
         # Word count feedback
-        if word_count_score < 70:
+        if word_count_score < 100:
             if entry.total_word_count < min_words:
-                feedback.append(f"Entry is too short ({entry.total_word_count} words). Target: {min_words}-{max_words} words.")
-            else:
-                feedback.append(f"Entry is too long ({entry.total_word_count} words). Target: {min_words}-{max_words} words.")
+                feedback.append(f"Entry too short ({entry.total_word_count} words). Minimum: {min_words} words. Expand sections as needed.")
         
         # Theological depth feedback
-        if theological_depth_score < 70:
-            feedback.append("Consider deepening theological content with more Patristic references and Orthodox concepts.")
+        if theological_depth_score < 90:
+            feedback.append("Deepen theological content: add Patristic citations (20+ minimum), Scripture references (15+ minimum), and Orthodox theological vocabulary.")
         
         # Coherence feedback
-        if coherence_score < 70:
-            feedback.append("Improve coherence by ensuring all sections are well-developed and flow naturally.")
+        if coherence_score < 90:
+            feedback.append("Improve coherence: ensure all sections are well-developed, flow naturally, and connect thematically.")
         
         # Section balance feedback
-        if section_balance_score < 70:
-            feedback.append("Some sections may be imbalanced. Review section word counts against targets.")
+        if section_balance_score < 90:
+            feedback.append("Section imbalance detected. Review each section against minimum word counts. Expand under-developed sections.")
         
         # Orthodox perspective feedback
-        if orthodox_perspective_score < 70:
-            feedback.append("Strengthen the Orthodox Christian perspective throughout the entry.")
+        if orthodox_perspective_score < 90:
+            feedback.append("Strengthen Orthodox Christian perspective: increase Orthodox-specific terminology, liturgical grounding, and contrasts with Western theology.")
         
-        if not feedback:
-            feedback.append("Excellent work! This entry meets all quality standards.")
+        if total_score >= 95:
+            feedback.append(f"CELESTIAL tier achieved ({total_score:.1f}/100)! Entry meets all quality standards.")
         
         return feedback
